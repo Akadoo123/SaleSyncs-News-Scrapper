@@ -116,6 +116,10 @@ export class AiProvider {
     }
 
     const maxTokens = opts.maxTokens ?? 4000;
+    // haiku ไม่รองรับพารามิเตอร์ effort และ adaptive thinking → ต้องไม่ส่งไป
+    // (ไม่งั้น API ตอบ 400 ทุกครั้งแล้วตกไปใช้ rule-based ทั้งหมด)
+    const supportsEffort = !/haiku/i.test(this.model);
+    const supportsThinking = !/haiku/i.test(this.model);
     const system: Anthropic.Beta.BetaTextBlockParam[] = [
       {
         type: 'text',
@@ -138,9 +142,9 @@ export class AiProvider {
           model: this.model,
           max_tokens: maxTokens,
           system,
-          ...(opts.thinking ? { thinking: { type: 'adaptive' as const } } : {}),
+          ...(opts.thinking && supportsThinking ? { thinking: { type: 'adaptive' as const } } : {}),
           output_config: {
-            effort: opts.effort,
+            ...(supportsEffort ? { effort: opts.effort } : {}),
             format: betaZodOutputFormat(opts.schema),
           },
           messages: [{ role: 'user', content: userContent }],
