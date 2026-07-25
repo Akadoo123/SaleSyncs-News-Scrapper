@@ -19565,5 +19565,156 @@
       "titleOriginal": "Has the SaaS Sector's AI Reckoning Gone Too Far - Kavout | AI",
       "originalSnippet": "Has the SaaS Sector's AI Reckoning Gone Too Far Kavout | AI"
     }
+  },
+  "10d0b9d5c7211d3f0f5e877e": {
+    "savedAt": "2026-07-25T18:35:33.905Z",
+    "item": {
+      "title": "Salesforce Inc (CRM) หุ้น เคลื่อนไหว ขึ้น 3.77% เมื่อวันที่ 24 ก.ค.: มันส่งสัญญาณอะไร? - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeTVXMnk3bVRBVWZGbUxjU2xrT0FfMV9EcEJXNktNWjJFTS15MTJOUURVOVU1bDJpSUNZd2VnT0xjdklDR292UlJ3eFh1XzE5RDZtSExMVUZGUTRVaG5CZzlrakgyaTRwTE5IN0JERF8ydFQwRnl5SlU0dzVoa0N2X0t3TlpCaE1WbnVCX0pB?oc=5",
+      "snippet": "Salesforce Inc (CRM) หุ้น เคลื่อนไหว ขึ้น 3.77% เมื่อวันที่ 24 ก.ค.: มันส่งสัญญาณอะไร? TradingKey",
+      "publishedAt": "2026-07-24T18:16:38.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "TradingKey",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "4d0459fdd9b454dd",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeTVXMnk3bVRBVWZGbUxjU2xrT0FfMV9EcEJXNktNWjJFTS15MTJOUURVOVU1bDJpSUNZd2VnT0xjdklDR292UlJ3eFh1XzE5RDZtSExMVUZGUTRVaG5CZzlrakgyaTRwTE5IN0JERF8ydFQwRnl5SlU0dzVoa0N2X0t3TlpCaE1WbnVCX0pB",
+      "contentHash": "10d0b9d5c7211d3f0f5e877e",
+      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 31,
+      "matchedCategories": [
+        "CRM_SALESTECH",
+        "PLATFORM",
+        "COMPETITOR"
+      ],
+      "matchedCompetitors": [
+        "Salesforce"
+      ],
+      "matchedBrands": [
+        "Salesforce"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "Salesforce Inc (CRM) หุ้น เคลื่อนไหว ขึ้น 3.77% เมื่อวันที่ 24 ก.ค.: มันส่งสัญญาณอะไร? - TradingKey",
+      "shortSummaryTh": "Salesforce Inc (CRM) หุ้น เคลื่อนไหว ขึ้น 3.77% เมื่อวันที่ 24 ก.ค.: มันส่งสัญญาณอะไร? TradingKey",
+      "classification": "negative",
+      "impactScore": -3,
+      "confidence": 53,
+      "relevanceScore": 100,
+      "newsCategory": "COMPETITOR",
+      "affectedChannels": [
+        "SAAS"
+      ],
+      "affectedProducts": [
+        "CRM_CORE"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [
+        "Salesforce"
+      ],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "negative"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [
+        "คู่แข่ง (Salesforce) เคลื่อนไหวในตลาด"
+      ],
+      "reasoningSummary": [
+        "ตรวจพบคู่แข่ง: Salesforce"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Founder & Strategy",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "immediate",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeTVXMnk3bVRBVWZGbUxjU2xrT0FfMV9EcEJXNktNWjJFTS15MTJOUURVOVU1bDJpSUNZd2VnT0xjdklDR292UlJ3eFh1XzE5RDZtSExMVUZGUTRVaG5CZzlrakgyaTRwTE5IN0JERF8ydFQwRnl5SlU0dzVoa0N2X0t3TlpCaE1WbnVCX0pB",
+      "titleOriginal": "Salesforce Inc (CRM) หุ้น เคลื่อนไหว ขึ้น 3.77% เมื่อวันที่ 24 ก.ค.: มันส่งสัญญาณอะไร? - TradingKey",
+      "originalSnippet": "Salesforce Inc (CRM) หุ้น เคลื่อนไหว ขึ้น 3.77% เมื่อวันที่ 24 ก.ค.: มันส่งสัญญาณอะไร? TradingKey"
+    }
+  },
+  "9697a1278b521d416613db83": {
+    "savedAt": "2026-07-25T18:35:34.402Z",
+    "item": {
+      "title": "GoHighLevel Review 2026 (My Honest Opinion)",
+      "link": "https://www.youtube.com/watch?v=zzJ4nXcgk-o",
+      "snippet": "In this GoHighLevel review, I answer whether the all-in-one CRM and SaaS platform is actually worth it, covering where it wins, ... (ช่อง: Metics Media) · ยอดวิว 3,853 ครั้ง",
+      "publishedAt": "2026-06-28T11:00:29.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · Metics Media",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "ba326b7f39ecfc3f",
+      "canonicalUrl": "https://youtube.com/watch?v=zzJ4nXcgk-o",
+      "contentHash": "9697a1278b521d416613db83",
+      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 19,
+      "matchedCategories": [
+        "CRM_SALESTECH",
+        "SAAS_CLOUD"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "GoHighLevel Review 2026 (My Honest Opinion)",
+      "shortSummaryTh": "In this GoHighLevel review, I answer whether the all-in-one CRM and SaaS platform is actually worth it, covering where it wins, ... (ช่อง: Metics Media) · ยอดวิว 3,853 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 71,
+      "newsCategory": "CRM_SALESTECH",
+      "affectedChannels": [
+        "SAAS"
+      ],
+      "affectedProducts": [
+        "CRM_CORE"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Founder & Strategy",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=zzJ4nXcgk-o",
+      "titleOriginal": "GoHighLevel Review 2026 (My Honest Opinion)",
+      "originalSnippet": "In this GoHighLevel review, I answer whether the all-in-one CRM and SaaS platform is actually worth it, covering where it wins, ... (ช่อง: Metics Media) · ยอดวิว 3,853 ครั้ง"
+    }
   }
 }
