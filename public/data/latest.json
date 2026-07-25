@@ -1,12 +1,12 @@
 {
   "date": "2026-07-26",
-  "generatedAt": "2026-07-25T18:35:34.928Z",
+  "generatedAt": "2026-07-25T18:45:13.374Z",
   "timezone": "Asia/Bangkok",
   "status": "degraded",
   "kpi": {
     "totalCollected": 1153,
-    "afterDedup": 594,
-    "afterPrefilter": 101,
+    "afterDedup": 591,
+    "afterPrefilter": 100,
     "published": 94,
     "positive": 29,
     "neutral": 54,
@@ -24,145 +24,226 @@
     "demandSignals": 0
   },
   "daily": {
-    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ SaleSync ได้ 94 ข่าว แบ่งเป็นเชิงบวก 29 ข่าว เป็นกลาง 54 ข่าว และเชิงลบ 11 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 29.3 ซึ่งจัดอยู่ในระดับบวกต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"[EN] State department releases playbook for generative AI - Nextgov/FCW\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"[EN] Salesforce (CRM) Awards 209,429 RSUs to New Employees Following Acquisitions - GuruFocus\" พบความเคลื่อนไหวของคู่แข่ง 11 รายการ ควรติดตามใกล้ชิด หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
-    "overallSentiment": "positive",
-    "netImpactScore": 29.31,
+    "executiveSummaryTh": "วันนี้ตลาดส่งสัญญาณผสมผสานสำหรับ SaleSync โดยหลักจากสองแรง: (1) โอกาสบวก—ยุค Agentic AI กำลังเฟื่องฟูในไทยและภูมิภาค กับการรับรองจากผู้ประกอบการขนาดใหญ่ (Google Cloud, Huawei, AWS, AMD) ที่เร่งผลักดัน Agentic AI/Next-Best-Action workflows ในองค์กร สอดคล้องเป้าหมายของ SaleSync ในการใช้ AI แนะนำการกระทำถัดไป ลูกค้าศาสตร์จะพร้อมรับโมเดลนี้มากขึ้น (2) ความเสี่ยง—Salesforce ยังโล่งเต้นในการคว้าสัญญาระดับรัฐบาล ($1.6B) และ Agentic AI แบบเปิดโค้ด (OpenWorker) รวมถึงการส่งเสริม AI agent ของคู่แข่ง (HubSpot, Bunkerhill) กำลังทำให้ตลาดเต่อแข่ง ผลสุทธิ: ประตูอุปสงค์เปิดกว้าง แต่ช่องทางการขายแคบลง จำเป็นต้องเร่งการพิสูจน์ผล Air4 (O1) และเริ่มบิล SaaS ต้นหน้า (O2) ก่อนคู่แข่งจะปูทางเข้าตลาด",
+    "overallSentiment": "neutral",
+    "netImpactScore": 13,
     "urgencyLevel": "high",
     "opportunitySignals": [
       {
-        "title": "[EN] State department releases playbook for generative AI - Nextgov/FCW",
-        "detail": "นโยบายรัฐหนุนดิจิทัล/สตาร์ทอัพ = โอกาสทุน/ตลาด",
+        "title": "ยุค Agentic AI เข้าไทยแล้ว—อุปสงค์ Next-Best-Action เพิ่มขึ้น",
+        "detail": "Google Cloud, Huawei, AWS, AMD ต่างเปิดตัวโครงสร้าง Agentic AI/Agent OBT ในไทยและภูมิภาค SMEs กำลังมองหาวิธีปรับแต่งทีมขายและองค์กรด้วยระบบ AI ที่บอกว่า \"ควรโทรใครคนไหนวันนี้\" SaleSync ที่สร้างจากโมเดล Partner Health Score + Next Best Action เป็นตัวเลือกเหมาะสม",
         "relatedNewsIds": [
-          "e4ec36715f7df85c"
+          "1e8e525091bb7620",
+          "d1028f0f36f37a0d",
+          "3a73297ff2870001",
+          "a2a823b24dcf3063",
+          "43e7defecad27de2",
+          "def12fd58a62ed42",
+          "59161f8d8f54c80b",
+          "5f93c0aeff1ce1c3"
         ]
       },
       {
-        "title": "[EN] Bunkerhill raises $55M to scale agentic AI across health systems - AI News",
-        "detail": "ตลาด SaaS/AI เติบโตหรือมีเงินลงทุนเข้า = อุปสงค์ต่อเครื่องมือเพิ่มขึ้น",
+        "title": "ความนิยมใจต่อ Agentic AI ระดับสากล—กำลังเริ่มช่วงการปรับตัว",
+        "detail": "สรุป 27+ ข่าวใน Agentic AI ในสัปดาห์นี้แสดงว่าภาวะความมืดลง Agentic AI ได้หากินในสาขาสุขภาพ วิศวกรรม ลีกัลเทค B2B sourcing บ่งชี้ว่าองค์กรไม่ได้สนใจแค่ ChatGPT แล้ว แต่หาระบบที่ \"ทำงาน\" ไม่ใช่แค่พูด",
         "relatedNewsIds": [
-          "48e4f62325ccab29"
+          "e4ec36715f7df85c",
+          "48e4f62325ccab29",
+          "cc8e18f506099434",
+          "bfc6ecfda09d6073",
+          "797b7921fadc163d",
+          "48dac9f47d9dc9ed",
+          "1d8d3907f92ade0c",
+          "c752395fca92c0d2",
+          "e61919633aca3127",
+          "2fffd03f555c065a",
+          "7804cc8abda1503e",
+          "69b8d9a911259ed9"
         ]
       },
       {
-        "title": "หัวเว่ย คลาวด์ เปิดตัว ‘Agentic AI’ และ ‘CodeArts Agent OBT’ ในไทย ยกระดับนวัตกรรมองค์กรยุคดิจิทัล - biztalknews.com",
-        "detail": "เทคโนโลยี AI ที่เป็นแกนของ SaleSync ได้รับการยอมรับมากขึ้น",
+        "title": "ลูกค้า B2B2C ในไทยเปิดกว้างต่อดิจิทัลใหม่—ตามขอ Agentic AI",
+        "detail": "ข้อมูลจาก Google Cloud, EY, Alibaba ชี้ว่าองค์กร B2B (ทำความสัมพันธ์ Partner-driven) กำลังหาเครื่องมือที่อัดหนี่งไปยัง Next Best Action ด้วย AI ตรงกับความต้องการของ Air4 ในการจับบัญชี dormant และเพิ่ม reorder",
         "relatedNewsIds": [
-          "1e8e525091bb7620"
+          "e61919633aca3127",
+          "69b8d9a911259ed9",
+          "cf3d87e46ff5793b"
+        ]
+      },
+      {
+        "title": "มูลค่า US Kill Switch Act และ Vendor-Agnostic Agentic AI—จุดขายขณะนี้",
+        "detail": "Gartner ชี้ว่า Kill Switch Act ต้องการ Agentic AI ที่ไม่ติดอาวุธผู้ขายคนหนึ่ง SaleSync ที่สามารถเลือกโมเดล AI ได้ (open-ended architecture) อาจเป็นหนึ่งในลักษณะเด่น vs. Salesforce/HubSpot ที่ผูกมัดลูกค้ากับโมเดลของตัวเอง",
+        "relatedNewsIds": [
+          "2fffd03f555c065a"
         ]
       }
     ],
     "riskSignals": [
       {
-        "title": "[EN] Salesforce (CRM) Awards 209,429 RSUs to New Employees Following Acquisitions - GuruFocus",
-        "detail": "คู่แข่ง/แพลตฟอร์มใหญ่ขยับเข้าตลาด CRM/AI โดยตรง",
+        "title": "Salesforce นำความสำเร็จขนาดใหญ่ต่อเนื่อง—โมเมนตัมคู่แข่งสูง",
+        "detail": "Salesforce ชนะสัญญา VA มูลค่า $1.6B, RSU ใจใหม่ +209K ตัว สัญญาณปรับ AI agents—หลักฐานการ scaling พร้อมทำ Next-Best-Action ไม่น้อยกว่า SaleSync แต่มีงบ, brand, ลูกค้า, ความเชื่อใจ ในขณะที่ SaleSync ยังอยู่ระหว่าง Build–Prove ที่ Air4 โดยยังไม่มี SaaS customer ภายนอก",
         "relatedNewsIds": [
-          "7d56c76592a5b852"
+          "1ebbb9312475ba20",
+          "fb57f532bea52c9d",
+          "4d0459fdd9b454dd",
+          "a4fa1090d414d41d",
+          "65d45ed19fc574ac",
+          "ad949912a07167dc"
         ]
       },
       {
-        "title": "[EN] Salesforce (CRM) Lands $1.6 Billion VA Deal To Power Veteran Care - Yahoo Finance Singapore",
-        "detail": "คู่แข่ง (Salesforce) เคลื่อนไหวในตลาด",
+        "title": "OpenWorker (Andrew Ng) เปิด Agentic AI ตัวกลาง—ความเสี่ยงต้นทุน/ลูกค้า DIY",
+        "detail": "OpenWorker MIT-licensed open-source รันบนเครื่องผู้ใช้เอง ไม่ส่งข้อมูลออก ลูกค้า SME ที่อยากประหยัด อาจสร้าง Next-Best-Action ของตัวเองหรือจ้างทีม freelance งบน้อย แทนที่จะจ่ายสำหรับ SaaS มีความเสี่ยงต่อหน้าต่างราคา",
         "relatedNewsIds": [
-          "fb57f532bea52c9d"
+          "7cf2a6060641bd71"
         ]
       },
       {
-        "title": "Salesforce Inc (CRM) หุ้น เคลื่อนไหว ขึ้น 3.77% เมื่อวันที่ 24 ก.ค.: มันส่งสัญญาณอะไร? - TradingKey",
-        "detail": "คู่แข่ง (Salesforce) เคลื่อนไหวในตลาด",
+        "title": "HubSpot เร่งคู่แข่ง AI Agents—การวั้งวะตลาดกำลังเต่อแข่ง",
+        "detail": "HubSpot พูดถึง AI Agent Tools ใหม่ โจทย์: HubSpot แรงมากในกลุ่ม SME USA/EU, ราคาต่ำกว่า Salesforce HubSpot อาจขยายต่ออาจะเข้า SEA, Bunkerhill ระดมทุน $55M สำหรับ Agentic AI ระบบสุขภาพ ข่าวสารลึกลับสำหรับ SaleSync ที่ยังมี customer = 0 ภายนอก",
         "relatedNewsIds": [
-          "4d0459fdd9b454dd"
+          "213c8a35972f8b02",
+          "48e4f62325ccab29"
         ]
       }
     ],
     "actionsToday": [
       {
-        "action": "ประเมินผลกระทบจากข่าว: [EN] Salesforce (CRM) Awards 209,429 RSUs to New Employees Following Acquisitions - GuruFocus",
+        "action": "นั่งลง CEO + Product Lead + Sales Lead: วิเคราะห์กลยุทธ์อัดหนี่ง Air4 POC ตัวจริง ก่อน Q2 สิ้นสุด (เป้า 5% revenue lift) เทียบสัญญาณลูกค้าที่ต้องการ Next-Best-Action SaaS",
         "owner": "Founder & Strategy",
         "priority": "high",
         "deadline": "today",
-        "reason": "คู่แข่ง/แพลตฟอร์มใหญ่ขยับเข้าตลาด CRM/AI โดยตรง",
+        "reason": "Salesforce + HubSpot + OpenWorker ทั้งหมดขยับ Agentic AI อย่างแข็งขัน ถ้า Air4 POC เปิดขึ้นมา SaleSync จะมี proof point สำหรับขายเป็น SaaS ภายนอก 2–3 เดือนเร็วกว่า ถ้าผลสำเร็จเร็ว ต้องบันทึก case study แล้ว go-to-market SaaS วิดโวชั่นกำลังหนี",
         "relatedNewsIds": [
-          "7d56c76592a5b852"
+          "1ebbb9312475ba20",
+          "fb57f532bea52c9d",
+          "213c8a35972f8b02"
         ]
       },
       {
-        "action": "ประเมินผลกระทบจากข่าว: [EN] Salesforce (CRM) Lands $1.6 Billion VA Deal To Power Veteran Care - Yahoo Finance Singapore",
-        "owner": "Founder & Strategy",
+        "action": "ติดต่อ 2–3 ลูกค้า Auto-chem / Beauty-clinic รอบ \"ต้องการทำให้ partner activate มากขึ้นไหม แบบใช้ AI บอกทีมขาย\" (ทดลองขาย SaaS pilot)",
+        "owner": "Sales & GTM",
         "priority": "high",
         "deadline": "today",
-        "reason": "คู่แข่ง (Salesforce) เคลื่อนไหวในตลาด",
+        "reason": "Google Cloud / Huawei / AWS / AMD ต่างประกาศ Agentic AI ครบหมวด องค์กร Thailand กำลังมองหาผู้ขาย SaaS แนว Next-Best-Action อีกนี้คือช่องหลัก O2 ขยับเร็ว ตอนนี้ตลาดชื่อปื่น ขายปืนก่อนคู่แข่งปรากฏตัว",
         "relatedNewsIds": [
-          "fb57f532bea52c9d"
+          "1e8e525091bb7620",
+          "d1028f0f36f37a0d",
+          "3a73297ff2870001",
+          "a2a823b24dcf3063"
+        ]
+      },
+      {
+        "action": "ทบทวนแอร์คิเทกเจอร์ AI + compliance: ยืนยันว่า SaleSync มี PDPA-ready compliance บนทุกชั้น (ข้อมูลพาร์ทเนอร์ / ลูกค้าจบ / incentive) เขียน compliance statement สำหรับ sales deck",
+        "owner": "Compliance & Security",
+        "priority": "high",
+        "deadline": "today",
+        "reason": "UK Kill Switch Act + Gartner ต้องการ vendor-agnostic AI agents อาจมี EU/Thailand CPA-like rules เดาไม่ได้ว่ากฎไหน ต้องอยู่ข้างหน้า ลูกค้าจะถาม \"ข้อมูลผู้ประกอบการ confidential ไหม\" \"ใช้ AI ไหนก็ได้ไหม\" บอก \"ใช่\" แล้วเอาเป็นเรื่องของเรา ไม่ใช่พยายาม",
+        "relatedNewsIds": [
+          "2fffd03f555c065a"
         ]
       }
     ],
     "actionsWithin7Days": [
       {
-        "action": "ต่อยอดโอกาสจากข่าว: [EN] State department releases playbook for generative AI - Nextgov/FCW",
-        "owner": "Sales & GTM",
-        "priority": "medium",
+        "action": "เตรียม 1-pager / demo video: \"SaleSync Next-Best-Action engine ถูกออกแบบจาก Air4 มี Partner Health Score + Dormant Alert + Reorder Prediction\" โปสต์ใน LinkedIn + Twitter + TechSauce + medium.com",
+        "owner": "Marketing & Growth",
+        "priority": "high",
         "deadline": "within_7_days",
-        "reason": "นโยบายรัฐหนุนดิจิทัล/สตาร์ทอัพ = โอกาสทุน/ตลาด",
+        "reason": "Agentic AI เป็นเรื่องร้อน 27+ ข่าวเมื่อวาน สื่อเทคโนโลยีไทย + SEA กำลังตามหา startup ที่เอา Agentic AI มาทำให้คนจริง (ไม่ใช่แค่พูด) ต้องปะโปะความมั่นใจของ SaleSync ที่มีความเป็นจริง (Air4 proof) ขณะนี้",
         "relatedNewsIds": [
-          "e4ec36715f7df85c"
+          "1e8e525091bb7620",
+          "d1028f0f36f37a0d",
+          "3a73297ff2870001",
+          "a2a823b24dcf3063",
+          "43e7defecad27de2"
         ]
       },
       {
-        "action": "ต่อยอดโอกาสจากข่าว: [EN] Bunkerhill raises $55M to scale agentic AI across health systems - AI News",
-        "owner": "Sales & GTM",
+        "action": "หารือกับ AI & Data Science: สำรวจว่าเวลาไหน SaleSync จะเลือก LLM / embedding model ได้อิสระ (multi-model support) เพื่อติด Gartner trend + Vendor-Agnostic requirement",
+        "owner": "AI & Data Science",
         "priority": "medium",
         "deadline": "within_7_days",
-        "reason": "ตลาด SaaS/AI เติบโตหรือมีเงินลงทุนเข้า = อุปสงค์ต่อเครื่องมือเพิ่มขึ้น",
+        "reason": "Gartner ชี้ Kill Switch Act ต้อง vendor-agnostic agentic AI นี่คือจุดขายเทียบกับ Salesforce/HubSpot ที่ผูกลูกค้า ควรหารือ timeline / effort ก่อนขายประเด็นนี้",
         "relatedNewsIds": [
-          "48e4f62325ccab29"
+          "2fffd03f555c065a"
+        ]
+      },
+      {
+        "action": "ติดตาม Bunkerhill Series-B $55M (Agentic AI for health systems) + ข้อมูล AMD Helios / Huawei Agentic AI infrastructure: วิเคราะห์ว่าซึ่งพวกเขาวิธี GTM ไหม, ลูกค้า segment ไหน, ราคา",
+        "owner": "Partnerships & BD",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "Bunkerhill/AMD/Huawei ต่างขยับเข้า Agentic AI บนสาขาจำเพาะ (สุขภาพ, infrastructure) ต้องศึกษาว่า SaleSync ควรแนว \"horizontal + deep ops\" (คล้าย Salesforce) หรือ \"vertical specialist\" (Auto-chem/Beauty/SPA) ไปจับจุด unmet need ของคู่แข่ง",
+        "relatedNewsIds": [
+          "48e4f62325ccab29",
+          "def12fd58a62ed42",
+          "59161f8d8f54c80b"
         ]
       }
     ],
     "actionsToMonitor": [
       {
-        "action": "ติดตามความเคลื่อนไหวของ Salesforce",
-        "owner": "Partnerships & BD",
-        "priority": "medium",
+        "action": "วัตถุเล็งอ้างอิงคู่แข่ง: Salesforce momentum (RSU, VA deal, AI agents), HubSpot positioning (SME-focused AI), OpenWorker (DIY + open-source threat), Bunkerhill (specialized + well-funded) วัดว่าทีมฟุตบอลทีมใดมีการตัดสิน GTM/product roadmap ต่อ O2 (SaaS outside Air4)",
+        "owner": "Founder & Strategy",
+        "priority": "high",
         "deadline": "monitor",
-        "reason": "ความเคลื่อนไหวของคู่แข่งอาจกระทบส่วนแบ่งตลาด",
+        "reason": "ถ้าคู่แข่งเข้า Thailand/SEA market ในช่วง 6–9 เดือน SaleSync จะเสีย momentum เพราะยังเป็น startup ไม่มี brand ไม่มี lore customer case ต้องให้ผู้บริหารตัดสินใจ ไปเร่ง SaaS customer hunt vs. ลุกหลับ POC Air4 ให้สำเร็จก่อน",
         "relatedNewsIds": [
-          "7d56c76592a5b852"
+          "1ebbb9312475ba20",
+          "fb57f532bea52c9d",
+          "213c8a35972f8b02",
+          "48e4f62325ccab29"
         ]
       },
       {
-        "action": "ติดตามความเคลื่อนไหวของ Salesforce",
-        "owner": "Partnerships & BD",
+        "action": "ตรวจสอบ Thailand/SEA Agentic AI adoption trend: จำนวน article/PR จาก Google Cloud TH, Huawei TH, AWS TH เปิดตัว AI agent roadmap ในไทย จำนวน startup/SME ที่เปิดตัว AI agent product อยากวัด market readiness",
+        "owner": "Marketing & Growth",
         "priority": "medium",
         "deadline": "monitor",
-        "reason": "ความเคลื่อนไหวของคู่แข่งอาจกระทบส่วนแบ่งตลาด",
+        "reason": "ตลาดพร้อมรับ Agentic AI ประก่าวใจนี่คือช่องเปิดสำหรับ SaleSync ต้องติดตามว่า hype จาก Google/Huawei เปลี่ยนเป็น demand จริง (lead inquiry) หรือแค่ noise ที่ไป",
         "relatedNewsIds": [
-          "fb57f532bea52c9d"
+          "1e8e525091bb7620",
+          "d1028f0f36f37a0d",
+          "3a73297ff2870001",
+          "a2a823b24dcf3063",
+          "43e7defecad27de2"
+        ]
+      },
+      {
+        "action": "ทำข้อสังเกต OpenWorker/open-source threat: โปรแกรม open-source Agentic AI จะพาไปยุค \"DIY + freelance\" ลูกค้า SME บางรายอาจไม่ยอม pay SaaS บอก \"ใช้ OpenWorker แต่ปวบแกมหลัง\" ต้องสื่อสารเหตุผลไป SaleSync (vertical-domain knowledge, partner sales automation, recurring integration) ไม่ใช่แค่ AI engine",
+        "owner": "Product & Engineering",
+        "priority": "medium",
+        "deadline": "monitor",
+        "reason": "ความเสี่ยง long-term: ถ้า open-source Agentic AI เข้าระดับ \"production-ready\" SME จะตั้งคำถาม \"ทำไมต้องจ่าย SaleSync\" ต้องทำให้ value prop ชัด: SaleSync = Air4-domain knowledge + Partner Sales Automation + Recurring customer health = ต่างจาก generic agentic AI",
+        "relatedNewsIds": [
+          "7cf2a6060641bd71"
         ]
       }
     ],
     "okrAssessment": {
-      "O1": "สัญญาณวันนี้สนับสนุนเป้าหมายพิสูจน์ผลและเพิ่มรายได้ภายใน Air4",
-      "O2": "ข่าวที่เกี่ยวกับการขยายเป็น vertical SaaS ภายนอกมี 94 รายการ",
+      "O1": "สัญญาณประกอบบวก: ยุค Agentic AI เข้าไทย (Huawei, Google Cloud เปิดตัว CodeArts Agent OBT) องค์กรเสาะหา Next-Best-Action ซอฟต์แวร์เพิ่มเติม ประสิทธิผล Air4 POC ต้องล็อคในการพิสูจน์ 5% revenue lift ยังไม่มีความเสี่ยงตรงจากคู่แข่ง (ยังไม่เห็น Salesforce/HubSpot ลงมาแข่ง Air4 ตรง B2B2C auto-chem) แต่ถ้าสัญญาณก้อง Salesforce (1.6B VA deal) ต้องให้ผู้บริหารยุติ POC ลงนาม ขยายเป็นคุณเสมือนจริง case study โต่อ SaaS selling ภายนอก ถ้า POC ล้ม หรือ slow (>Q3) SaleSync เสีย.",
+      "O2": "สัญญาณข้ามครึ่ง: ด้านบวก—ตลาด SME/B2B2C Thailand เปิดกว้างต่อ Agentic AI ไม่มี SaaS \"Next-Best-Action\" เนทีฟตัวแรง (Salesforce ยังแนน CRM records ไม่ใช่ recommend) ความสำหรับระดับสากล (Bunkerhill $55M, EY report, Gartner Kill Switch) ชี้ว่าลูกค้าขนาดใหญ่จริง hungry สำหรับ agentic AI SaaS ด้านลบ—Salesforce + HubSpot + OpenWorker ต่างมี agenda เข้า market เดียวกัน ถ้า SaleSync ยังไม่มี paid SaaS customer ภายนอก 6 เดือน Salesforce จะบหมาด AI agents ลง SME segment อัตราง SaleSync rate card ถูกกว่า Salesforce ยัง 70–80% อาจจะลองแอร์ดี ที่เนื้อหา อัตราต้องตัดสิน GO/NO-GO ให้ SaaS customer hunt เร็ว ขณะนี้ ถ้ายัง proof POC ผลจะหลืดไป",
       "benefitingChannels": [
-        "SAAS",
-        "WHITELABEL"
+        "SAAS"
       ],
       "atRiskChannels": [
         "SAAS"
       ],
-      "prioritisationNote": "ควรตรวจสอบด้วย AI Analysis เพื่อความแม่นยำ"
+      "prioritisationNote": "O2 (SaaS outside Air4) เป็นเป้าหมายยาววัง และเป็นการมีสัญญาณหลักของการติดตามวันนี้ โมเมนตัม Agentic AI ถูกเปิดใช้โดย Google Cloud/Huawei/AWS ในไทย และสัญญาณ Salesforce/HubSpot ลึกเข้าไป Next-Best-Action อย่างแข็งขัน ทำให้ window ของอัตราต่อไป SaleSync ที่ไม่มี\"ความเสี่ยง\" (proven customer = 0) บางที narrow ลง ต้องทำให้ผู้บริหารจำดำเนินการ: (1) ยุติ Air4 POC ด่วน เลือก revenue lift target หรือ deadline hard (ex. end of Q2 / Q3) และลงนาม case study ทันที (2) เปิด SaaS sales pilot ต่อ 2–3 ลูกค้าต่างตัวจริง ในสัปดาห์นี้/ถัดไป ก่อนคู่แข่งยิงตามหลัง"
     },
     "ceoQuestions": [
-      "ข่าววันนี้มีรายการใดที่ควรเปลี่ยนลำดับความสำคัญของ roadmap หรือ GTM หรือไม่",
-      "มีคู่แข่งหรือแพลตฟอร์มใหญ่รายใดที่กำลังส่งสัญญาณเข้าตลาด CRM/AI ที่ต้องจับตา"
+      "Salesforce ยังคว้า VA deal $1.6B และ HubSpot ชูระบบ AI agents ใหม่ แถม Bunkerhill ระดมทุน $55M สำหรับ Agentic AI ระบบสุขภาพ ให้เราประเมินความสำเร็จ Air4 POC (5% revenue lift) ควรเป้าหมาย deadline ที่เต่อแข่งกำลังเข้าไปทำให้ลูกค้าระหว่าง ถ้าพลาด Q3 ตัวเลขจะ lag ข้างหลัง—จะเปลี่ยนแปลงการสนับสนุนบาป POC หรือทำเรื่องอื่นก่อน?",
+      "OpenWorker (MIT-licensed, open-source, on-device) เปิดให้ SME ระดมสร้าง Next-Best-Action engine เองด้วยทีมเล็ก หรือจ้าง freelance ด้วยต้นทุนต่ำกว่า SaleSync SaaS ลายมากมาย ต้องเตรียมข้อโต้แย้ง (value prop) ว่า SaleSync = Air4-domain knowledge + B2B2C partner sales ops + recurring customer health ไม่ใช่เพียงแค่ AI engine—ปั้น positioning นี้กลับเข้าไป product roadmap หรือ GTM messaging วันนี้?",
+      "Gartner เพิ่งปรึกษา Kill Switch Act ต้องการ vendor-agnostic agentic AI ประเด็นคือ Salesforce/HubSpot ผูกลูกค้า Agentic AI ให้ทำข้ึน closed LLM ของตัวเอง ควรให้ AI & Data Science ลำดับความสำคัญ multi-model support (เลือก LLM ได้อิสระ) เป็นพื้นฐาน feature แบบ Q2–Q3 เพื่อแข่ง Gartner trend + Vendor-Agnostic requirement หรือยังไม่จำเป็นที่นี่?"
     ]
   },
   "items": [
     {
       "title": "Salesforce (CRM) Awards 209,429 RSUs to New Employees Following Acquisitions - GuruFocus",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU1B4SVNNeFRLcFpZYUxxaG1jRFROVHAtTl80UEszRnFoaHdqWWVTWEpLS204b0w0elNTd2kyS3hUWnFERDVaX2xsb2taSjV6cVMyUkVBdUljMmkxUUxYOE9kRzFPQkdIdHZBT1pJenpIMVRyb0FpdGJnWXdoREppTFVXeW5lczE2ek92WXo3eVI5NVlSb0xjM29ycTlVdng4MjhkdVpVNkJZQjctVTRDaUVR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNR3pCX1gtcWhfN25YTkVtcDVrLUJPc3A4TDJjOF9qLUhwZVY2WHVtUmxDcWJuZzhZekxuRGdUSDFEcmpKMDJDbG5pbDJ3dFp0ZDdiY0NVQVNfc2lDb1Z1SDBJTHNobVN5Vll5aEdiNjJFc3RzU0FBT3FacE9XWm1jb2FOaXp4cXN1ZS1jMVlyZG5zYU1PcFBNMWRhSXE1NGxnRzUyTXI0VXF3TGhYT29PUF93RURWa2h1NmtMZmRTeUZoeTNIckRTVTFmN1duY2g5bHQ0N3JZT2ZSLWVOU0xBNFlORTl2aDlnWFd5RjJxblpaYVNrV1REME9URXM5dlZNdi01WVgxZ0lxb1ZKdnc5aVVTRmswTHlrUUE2WW41V0c0M0dYY3ZsNkJ1ZnAyX09YS3c?oc=5",
       "snippet": "Salesforce (CRM) Awards 209,429 RSUs to New Employees Following Acquisitions GuruFocus",
-      "publishedAt": "2026-07-24T21:03:07.000Z",
+      "publishedAt": "2026-07-25T04:58:48.000Z",
       "sourceId": "google-news:en-TH",
       "sourceName": "GuruFocus",
       "sourceTier": 2,
@@ -170,10 +251,10 @@
       "language": "en",
       "unverified": false,
       "itemKind": "news",
-      "id": "7d56c76592a5b852",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU1B4SVNNeFRLcFpZYUxxaG1jRFROVHAtTl80UEszRnFoaHdqWWVTWEpLS204b0w0elNTd2kyS3hUWnFERDVaX2xsb2taSjV6cVMyUkVBdUljMmkxUUxYOE9kRzFPQkdIdHZBT1pJenpIMVRyb0FpdGJnWXdoREppTFVXeW5lczE2ek92WXo3eVI5NVlSb0xjM29ycTlVdng4MjhkdVpVNkJZQjctVTRDaUVR",
+      "id": "1ebbb9312475ba20",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNR3pCX1gtcWhfN25YTkVtcDVrLUJPc3A4TDJjOF9qLUhwZVY2WHVtUmxDcWJuZzhZekxuRGdUSDFEcmpKMDJDbG5pbDJ3dFp0ZDdiY0NVQVNfc2lDb1Z1SDBJTHNobVN5Vll5aEdiNjJFc3RzU0FBT3FacE9XWm1jb2FOaXp4cXN1ZS1jMVlyZG5zYU1PcFBNMWRhSXE1NGxnRzUyTXI0VXF3TGhYT29PUF93RURWa2h1NmtMZmRTeUZoeTNIckRTVTFmN1duY2g5bHQ0N3JZT2ZSLWVOU0xBNFlORTl2aDlnWFd5RjJxblpaYVNrV1REME9URXM5dlZNdi01WVgxZ0lxb1ZKdnc5aVVTRmswTHlrUUE2WW41V0c0M0dYY3ZsNkJ1ZnAyX09YS3c",
       "contentHash": "9354f1f547c2fd326bef4838",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 31,
@@ -251,7 +332,7 @@
       "id": "e4ec36715f7df85c",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYXpnWUR1M3hXQTRCYUEtRWt6emNIZkdsM0JOLVFfTkJYeHo5M2hLdmh0OHJJdXU4bG94M1BtSGZsdVZsX1VwUHJTc2g3aEdtZ1NiQ1B3QWJqM016Zmdvcm9hbW5oMDlLZnpZWUlhZnRzOUZnOENmY0JQR3V3Z0dZVjYwYXpJeHNoeWwxazRKSkVXX1NnVWFJWWg3WTNaZ1ktekViaUNlZWJoZm55dmh3QXd3TEdNcEVmWFZyZ2g2QTdSX3hVQTVNdThkM1VVZG45",
       "contentHash": "f124383d0d1b147d8b49aa10",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -321,7 +402,7 @@
       "id": "48e4f62325ccab29",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXc5SFBkU2Exc2k4T2g4b2ozMTNZOFRTNmdBd3N6Vm9QbWR4MTlpYzJmUW56LTh3c0FhWFA5RGZSVHFwQzN6RU5heF9DYTI0dHpndmdfc2pfdkRQSXJjaVJmekFMMlgzTnU2TkVOMUlUdHVBU0d6eDR1QWdvS1V6ekV3eTZXRXI3THBFT1ZXQ0drN2MweV8tUU5ESVRNd2wzclVoZENB",
       "contentHash": "89e6f4a5212afbde7804a3e2",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -391,7 +472,7 @@
       "id": "fb57f532bea52c9d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TdDVBRFFyYTlmVnhyMVBLeDJDaDNYbVVOX2Vkcl9WcTZFWmc4Ti10M05aV0Znd1F2YkUtZmk3V2R6dWtYVTh0dWJSOVJXOHI1dVFqVzdLdHF1UmZlaXdqcWg0VHZXTUpscmZzd1diQnNWVU5TSTJ2UElRTVRoUQ",
       "contentHash": "07e5f6ee41aec6145e7609c1",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 35,
@@ -476,7 +557,7 @@
       "id": "4d0459fdd9b454dd",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeTVXMnk3bVRBVWZGbUxjU2xrT0FfMV9EcEJXNktNWjJFTS15MTJOUURVOVU1bDJpSUNZd2VnT0xjdklDR292UlJ3eFh1XzE5RDZtSExMVUZGUTRVaG5CZzlrakgyaTRwTE5IN0JERF8ydFQwRnl5SlU0dzVoa0N2X0t3TlpCaE1WbnVCX0pB",
       "contentHash": "10d0b9d5c7211d3f0f5e877e",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 31,
@@ -553,7 +634,7 @@
       "id": "a4fa1090d414d41d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVkxvdTlpMmNxcUZpOTJtNm5JWk1GYzBFaERSVXpmTHBab20wY1ZZODE3Tm40RGtSWDhLc0pPYlIxYlJleDh0MWVhU1Jhd2czZ1lFN0FEdWVQWDdsT2FVUHdDTmxXd3oyaVpqQTlHSXNEWnJaTG5zZHhZU3JiRWdlbFZpS1VMdDcxU3hsRkJJT2JzVm5VbnNTWk9tWlR4Q3V6M2lybHpoZ3FfQTA1cHRrTUV0bWZBOTRuT2N1SmVBSWgwelJjaTZvOGFiSGFjY0ZxQUg4b2czNC1OcFl6VGZ5OVFB",
       "contentHash": "ae3bc83402af179b06ffb844",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 31,
@@ -630,7 +711,7 @@
       "id": "65d45ed19fc574ac",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSUI4aUNLQmY4SFdzY0pSX1F0UVJNdEtrMlkyNnVaa0d2NFZGc0V0c2dLak5oRkZ6bEtpZjF6MEZ2VHVpSEFfMmYzbFBWUEFLQk84RUc5OF9ld0FxTzY1dkcxbmhYY2oyV2MzNF84dnFERDllVmFMbHNVXzh6cXdMRm0wTGsyMUMtYTk0cWNSR1lNTS1icTdlb2Vma2ZJRk1BcUh0aENWQWF1dnNpTDNvZGVEQ1R5a1JaYUoxSEdBWXRPTkhRRWlMMmppcHJJdw",
       "contentHash": "b86439dff115e31250cd7fa8",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 31,
@@ -707,7 +788,7 @@
       "id": "1e8e525091bb7620",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeTBVdE9GUjRNVVFLalZncU4wMlBqdGNwSkxld0lqOGZ0OWhmLUtaVm5HYWhRdVNCN2kyMm9IUWFTNFVILUJ1T3puVXBxWXRBZ0ZuLTY2QUdZb3d1bkJkM2hqVnFrdGhCSVJUYUw2UHRGb2c0dlZIODZpX1dvTHNpakJXMnFiWExSZy1pc0FtdWVCd0F6UFlZdmln",
       "contentHash": "cf86cc9c395b8c7dd9565b23",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 30,
@@ -778,7 +859,7 @@
       "id": "213c8a35972f8b02",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSFJCcU52bEFJTV9UR0hJdTRIa2hWTTl1ckdRV2pybW1MaW9zTEFqUjdiUzloZlByUzA5Q3hoRjg1ajdBRzN4TmNJQzdDMEoyeC1udk5uTnlSOGJnV2ZReHl5RGlNVlhQQzVDTXZNdUxTdExtTzV6ZFRtYTJKaXR2enV1NmpVTjMtNjZneGgzc2RTV1Rvd19MN01TejF1bVk",
       "contentHash": "9217308012fbd9da5f200dbd",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 29,
@@ -855,7 +936,7 @@
       "id": "d1028f0f36f37a0d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oRHpWX1lXZXFlZGFGMk5GVTgzQ1VUMTI3Q2RMQ3dOWXQxRmwxYkJvQkZDTUxZMUhwM1hmTkhVOC1hd2t4ZmEwNGNfSkxFVEtJZUtpUnZqaVZwbm9wdjFzSg",
       "contentHash": "fb4d143327c2587375416a82",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 25,
@@ -928,7 +1009,7 @@
       "id": "3a73297ff2870001",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMM21qNDRNdGo2N2VJbWdFejU2dDR0LTMtbFJ1dlAteG40UnRHazVMc3J6d1A2SHFBVWR1U1NZU0g3SjlqNlU1cldZZ2tPemIxb0QwQWlZb2dRdw",
       "contentHash": "deff62d8418ae50b477ce9a9",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 22,
@@ -998,7 +1079,7 @@
       "id": "a2a823b24dcf3063",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBQR2kyZ0pqMG9lME9tOVBQa0o0ZlVaUXAxZnJNSm94d3Q4UVAweG5yaTgwMldxbkFKR0JqcUU5TGlOWnZHZWZ0cVJhUzRsQVhNbjFUa25wS2g1S2NrdnNRM3FHekZFY2tmb3hXQzZGXzFVMGNS",
       "contentHash": "c8bc2f32fc4de0fce358216c",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 22,
@@ -1068,7 +1149,7 @@
       "id": "43e7defecad27de2",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EOWRPR25LTEdJRDk1ZVRvYXp5SmRzTmtzc0hYcVVTSWZsak1QaEJtNkY0ZmVyYXUyWFdmdjRfelhudHFzRWFKbTdaMjlpRlh0YVdPbFppNFJyRjRXaHhBdFVn",
       "contentHash": "494f34d33fcd55c94cef182a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 22,
@@ -1138,7 +1219,7 @@
       "id": "9da41f3ec4418542",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaDJlSWs0LVhmcERrZjlyMmlCOGxXN20teHZZLXZVMUJtUmxzVkU1SVFKQ1Z0VlRLeG1wTGpPWXdxUWhaZGFtdW5LUWVfdWdYc3oxM0daQ1ZBQi00Y0JZX0hGeXJwV3hJM1hxX1EwYWJadWtzdzNqVFloRk1JNkNSSHJra2N1N3RLZlRGQ0Nla2Q2OXZKTkc5Yjhidw",
       "contentHash": "591b5ca3dd06fd47a057ca1d",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 21,
@@ -1210,7 +1291,7 @@
       "id": "cc8e18f506099434",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14bjFORjQwVHBoaE9wcGw2bnladV8tTzNjeENsTnZ6UUVEeXVZLXROb3REMXI5X0dnaFFCT0V2VWw1ZjFIbHoxWW00UGNRSkFUX00zVA",
       "contentHash": "41079d50504fbf3df46699dc",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 21,
@@ -1280,7 +1361,7 @@
       "id": "bfc6ecfda09d6073",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdV9GZURMTzlnM1NtbEg1T1Fka3I4WG9mNEYzekp1TzdMTnFFQk9LUmtYUU8yZXk4UXMxZzYyRzc0OGw3Sk9aSWtNRlpmOV9TT050WkxJUVF0UWgyaElONjB2UVE1RjZWX19mWXppNm9VMlNqMGRVWmZ5ci11UUhGRi1XZW9YMXY1ZURlYTkxWk1oc28yRDUtOVVhSkhzWTVJWUtNNThiRGQxdm95MDZjaW9sRjBKQ0IwVEZtVzg4NEtBcUVaUVN1SVRB",
       "contentHash": "2b593227ce06c8c018b6c840",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 21,
@@ -1350,7 +1431,7 @@
       "id": "797b7921fadc163d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeHZmRzZRVEp6cDI1UWlzTEFTS01LZ1B4WDNqaTE4aGhYT2dZRXIwdmFab0FHa2ViOEFBbWo4TDBQRlNCenFXYUJpbi05SGhYQW1PaDhRSkFudURBRmtHZ3diZnBMQmdHblNTR2RkTTVJeTF3S0lwS2k1ZU1jSWVFbUhZZWFOb09ZaEZia1g4UmZCazNNekE",
       "contentHash": "b6d52380dda82ae0f9efb900",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 21,
@@ -1420,7 +1501,7 @@
       "id": "48dac9f47d9dc9ed",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYXk5VUdSZ3NEdG83UkZldjctYkZfUkQ2Vm03VnZ6TzVJVDNXNk9pTVotOHBnTElNQ0Yyc2lXWi0tVTdFNUpxVmF0QjBkLXpKTlZGU1FhTmJPMVFZeTBXaXJBNmhZeW56ZWRxV1hyaEFzcDVyU3V0MVBOQlQxTWZqaWZPWm9RVEk",
       "contentHash": "5e06f1968482318a5e9d1d74",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 21,
@@ -1490,7 +1571,7 @@
       "id": "1d8d3907f92ade0c",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONGFqU29tc0NJa1JGdVg1U21RZkt0YllPNVNYRW9RVEZzV0hickd1d1B4NUdfcC1oczB1WEFXdDFqcHdrQ0hGNFJFM1N0Q1VkdXhCYjl0TTJGS0k4cnFlb2Y0emQ4bzBQNnFhV2p0S1I0UVljYjZlSVh4Z2tMenFmdVZaLTZjNWRBVWpOSHlR",
       "contentHash": "60f3803715c6798a3e966f50",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 21,
@@ -1560,7 +1641,7 @@
       "id": "f778a24f44054223",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRjRPOGhQNXcyNmc0X0gyd3N1Vy1NWVRWeTkwVThCcVlGR1VMNFhYWUtiUjZsSTJ1UHFXVDByYXpkOGdpNHFXSjMycWUwSjNGUzJkMXF3UmNDUjVSbllqVHZqVnNGNTFsSVBicnY5TGFCenNFWVZTcVJJcXFRMUZwNGJ3b3FOY1ZkZkVTRHkwNG1TTi15Wm1TdUEtWFBTeVZ1SDBZc1hyZDZiZHA2dXY0a09hNFdSUTBfcTdkM1hDRzhiX3E1MXY3b3lEbkM2VU9z",
       "contentHash": "09c22f815ff7c97a03c07851",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -1629,7 +1710,7 @@
       "id": "5f93c0aeff1ce1c3",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hMm81TGx6eXVvdlZyd3F2NXNSbFF6UDJIVTZpNjFZWmlOSktBXzE0WlZhTFJIbTlDNnJ6aFB5N1FyX0dYUklJQW5IaTd5V19FZmVfVU56LWR2enJVcUlMRDlR",
       "contentHash": "70a7f688a442b3e661fb83d8",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -1698,7 +1779,7 @@
       "id": "def12fd58a62ed42",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XdjBBc0NBMGFDdEFVN3pTc1NwRHVPajlNbjRmZklIXzVuUEpVV0dEQ1dfM0hSSno0dXdSYkhuNFprMDh1WUQ3T21GNThFLTJqRU9HU2Q1SDlBY1o4Ykg3cWdzTmNSRmFLQnJHaGoxMzFkT19rOVRWcnh5bG9jb2s",
       "contentHash": "9eff6d46c86cce541981099a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -1767,7 +1848,7 @@
       "id": "59161f8d8f54c80b",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44Y3JCVnVGUmIyRjFfZFFmWFBBWm5ZSXI5MHp4MmpkSmJyeEZuQm9zWHRGYlZ2aXMxd0xwV1NJQy12cVp2Zy1kaE1aOWNDb2U2YUFRcy1Zb3JOci04ZXVfY2pXdm1yUdIBa0FVX3lxTE5SYUJVSzlHRUZ1dHdNbEtTRE4xY1JnOVc2OUlnVktpN0drY3l2Q3JqZGdtcHBIUWdyRDQ2YlFoU05rYmE2Ukd0MTZ0LUs0ZUw1VFNiTkZSVFpfTW1rQmhTaUk2NjVxM3lqNG0w",
       "contentHash": "680abb078932032b7bd5be8f",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -1836,7 +1917,7 @@
       "id": "da5d43a30ce3f219",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSDhFT3lONUVwSzFxczU5aVUzMFdld3ZnUm12YmJqdzB2T0UyZWVWMVFVR1dOVVBFU25VYjhGakN4MzN3M1IzNUFqeklTVXc5bTRBV1pfY1R0SmFEN05HTUtkOWVTNGN6N2dYejZkMGpYNERKU3lVbjhFcGh4Tk9RTzh0a1l0YndUb0xr",
       "contentHash": "6f00d7ef2284ea4c85c139bf",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -1905,7 +1986,7 @@
       "id": "58ee3905f52acc4b",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQzVVYnFZRGhVbEJ2c3lYUi1WSEg1STJ5ZGdtNkcxSlViTEhQb1RaY2NfN2dvdzVjWUtRZ2FXZmNKakxka09wSVJmU00wakRmRWRXMXNENFFEUm9PXzBCSGpIVWZ1eXlVMXV2UmFKRXhTVjRWOXZLYy1JTzUwSG00LVBLZw",
       "contentHash": "9fab1e33fab0a3da956362f2",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -1974,7 +2055,7 @@
       "id": "320cedeef5ef8f0b",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTHVtY1VjNG1MVEpfUUJDc2F3WDZ5dks3RW43WnhsM29vZVhVUVZFcmtfdmY3WkFBaTV3MmJOT193ck56aGlSLU51UVJ4RTVqakx5RC1IZy1BaW5YRHpCcHdLRUFTLWVyUVRYdjY1NlYwb1h1MVRPbnZ4MFdYdld2dW95QXVQWTV3alpDZw",
       "contentHash": "1b5ea3189f25e8db909dfaa8",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -2043,7 +2124,7 @@
       "id": "7845967697efe3be",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcFl6TEJtajFHTHlXS0c5ZU9mak5tUklHYzZPbVFwamZJUnlEZVlBOXgxX3d1OVJxZ0JZN1g0VTQ2VDkta0dlb2c5UFZhMlRoNTFIWmdINTdSeXZWbG5OM05Yc21XbWFaT3VOU1MzbGR4MHJTSG96dE5mdWF1bkw5aHdlRzBCWUMyVlpjZFUwQ3p3d01PUXZWWkJybHhnT21yRVlmLTg4UmU2aWUwQnJsU0swcw",
       "contentHash": "eb1269d04177e21f9e022cb1",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -2112,7 +2193,7 @@
       "id": "c752395fca92c0d2",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnFQRl9ydlFIM2JIQk5pekIzT3V5NlZ5RnZkRmFHNHFjSDcyRFNCb2tVLTVfVlpOSWg1UFRuTlE4dEt5NGpnRUxnWm84OXZqMjc3Z3NNSkF2X21FNl83amFWZ242TVo5RURvT3FfWVFMVXZ2cGI4VDBIRDFuZVJ4dE5SMDFJUUpZaVFLdDRLeGY4Tjd3ME1sMXdxZmVNY0JiOGYtVEVZd1R6UFM4eE9Z",
       "contentHash": "88dd1d4953def624c209aaa3",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -2181,7 +2262,7 @@
       "id": "e61919633aca3127",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1ZwYVFuaVBuQ0xzMUd3MlRhNzdxNzFBN1BzSHAzS0ZTVjJqZmpNdXhnQVR1U2VES0w2alJlTDNpcHE1V0ZGaFN4ZVRtMV80TXlOUUVyS2ZVUFBweVF6SHhkTFpwVW4zalhGdFRNWml1TjhLTC1TRWdKWm5WMExncXY5SkVFbEU3YWpybmxhWlRCcXdfdXRlN2Y2WXN5eXFF",
       "contentHash": "a11cf1129453a376cdf06597",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -2250,7 +2331,7 @@
       "id": "2fffd03f555c065a",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91ZUhVMVJZNzF2MEdOTVBOYVpqLVNidGpnTUVmdG1nYUNyT3poTF9XamtCMkpLVTdHbmhwUFNSbzlZaXQ0LUZpdEY5S0N3djFxbVUzazVmOA",
       "contentHash": "26aa6421b6d89c9f477f84ed",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -2319,7 +2400,7 @@
       "id": "7804cc8abda1503e",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYzNaTWxKMUdmVkE3aDV5czd2NVUxMG5qN2EzcURPeVJESE81SlNYOTZVbFJ5TnpVcG5ibWFWSzJQOS1zZ2thMzZobW1SZTFOUElwZzVFM0xNakRkVnZVT25GR09wZjRfSEJremRVZlVHTDJFd0ZrTFIxdmhVVzRFUF9Bem9iN0I5Um5YbzRzc1FoeWw0TFhiYmNMcS1fLU5xQjNTcHdBSDNYbEVuQ24tVjRuQzRxc3dIMmpqbU03WTJxWnZXQ0hTNUx0RjZPbHlGYVp1NVJEZUpoYUk",
       "contentHash": "762fa5cd77bbe46418f420c2",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -2388,7 +2469,7 @@
       "id": "69b8d9a911259ed9",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQi16dkg5Q0RhbHRaMEs3bHlaSUxMMHNLNi1oNmN0V0Z1SG8yQ2ZEMXNZU0x3enlIdFVPdmRVc0thZjZkUW0yX2piY3BwYXhMN005V3ZlLW01MWhHN2VoUkxGTkR6R1NRb1F4T2I0dnE0YXB5R2V1MmlMbHNDNkdPcVh6RDlNUWZiUDlBQjlHaUlDXzjSAZgBQVVfeXFMUFFVaG1lRTVHQXktdk9ERV9vLUpvQXpSMGtkWXlEVE9EX0dWMjB0SkFVWGRRUDlTWkhBbDFwcHVnOWExVlJaTXJNdmtWVng1R3NuVS1pVmZ2dUNSaFhDRW82V2x6cDF5dE16X3BMdXp5Q0RsSlJIb1VoSjNfUU9GdFdHYnFxX1ZtV3M3VVpBSWxSZXZTY0tMSkg",
       "contentHash": "3d03ae2da686a29be46aeb26",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -2457,7 +2538,7 @@
       "id": "cf3d87e46ff5793b",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZHJjTWZmdUk4N0s5NXdPdzJMS3R4SDE1czhWb3VqZy16VmlEUzZhZzA3MDRTMnRzbXl3VDhmVklVZ2QzTHZJcFhxdnI3cnZXaGU3aDBRWUdIZXVDclBuS2s5MldMTWtoa000cFROaFQ3ZkZMQm9EUTZOQUV5aUVkSWVCbl8xUWYwQUNILUZKZHFpbnI3WXc2cWVRZUx3SjFRYU5XbzVKYlBYRTRwMWJOWmg2MXpHZm56cHo0SjR1MDNCLU9i",
       "contentHash": "02132e1ebe70d3db2350c07f",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -2512,83 +2593,6 @@
       "originalSnippet": "The Real Bottleneck in Agentic AI Is Not the Model, It Is the Handoff Industrial Equipment News"
     },
     {
-      "title": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcWp5bjVXY1VucDVScnpJaEQ0cU9FdGoyOGtudkpaVmtlQkZ0QkFvdFotb1ByTHBGMDdYbFZpbzc0N0FOaW1ueEdYNWszN3Y4OVZ0cHhzVWxpalFGSXJtVC1oQkpMeXN5T2MyS3RyZXhQTGwyUi1DaDR2UnJBMThGWDhYVjNpeHRsUVQzbzc1RXJFdGJYbGhoZFcwM3E4czRmdUpEdlg5UDZrUDk3VU5nM2MzLW1iVFlVWWxUNGRZUk5LcVRjNnJlTVNKVQ?oc=5",
-      "snippet": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum AD HOC NEWS",
-      "publishedAt": "2026-07-25T05:13:34.000Z",
-      "sourceId": "google-news:en-SG",
-      "sourceName": "AD HOC NEWS",
-      "sourceTier": 2,
-      "sourceCountry": "SG",
-      "language": "en",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "d680d1d6ad6c6798",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcWp5bjVXY1VucDVScnpJaEQ0cU9FdGoyOGtudkpaVmtlQkZ0QkFvdFotb1ByTHBGMDdYbFZpbzc0N0FOaW1ueEdYNWszN3Y4OVZ0cHhzVWxpalFGSXJtVC1oQkpMeXN5T2MyS3RyZXhQTGwyUi1DaDR2UnJBMThGWDhYVjNpeHRsUVQzbzc1RXJFdGJYbGhoZFcwM3E4czRmdUpEdlg5UDZrUDk3VU5nM2MzLW1iVFlVWWxUNGRZUk5LcVRjNnJlTVNKVQ",
-      "contentHash": "5ced25ae960c2dbd5b3d82a2",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 20,
-      "matchedCategories": [
-        "PLATFORM",
-        "COMPETITOR",
-        "INTERNATIONAL"
-      ],
-      "matchedCompetitors": [
-        "Salesforce"
-      ],
-      "matchedBrands": [
-        "Salesforce"
-      ],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "[EN] Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum - AD HOC NEWS",
-      "shortSummaryTh": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum AD HOC NEWS",
-      "classification": "negative",
-      "impactScore": -3,
-      "confidence": 53,
-      "relevanceScore": 65,
-      "newsCategory": "COMPETITOR",
-      "affectedChannels": [
-        "SAAS"
-      ],
-      "affectedProducts": [
-        "AI_ENGINE"
-      ],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [
-        "Salesforce"
-      ],
-      "okrImpact": {
-        "O1": "negative",
-        "O2": "negative"
-      },
-      "positiveImpacts": [],
-      "negativeImpacts": [
-        "คู่แข่ง (Salesforce) เคลื่อนไหวในตลาด"
-      ],
-      "reasoningSummary": [
-        "ตรวจพบคู่แข่ง: Salesforce"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Founder & Strategy",
-          "priority": "high",
-          "deadline": "today"
-        }
-      ],
-      "timeHorizon": "immediate",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcWp5bjVXY1VucDVScnpJaEQ0cU9FdGoyOGtudkpaVmtlQkZ0QkFvdFotb1ByTHBGMDdYbFZpbzc0N0FOaW1ueEdYNWszN3Y4OVZ0cHhzVWxpalFGSXJtVC1oQkpMeXN5T2MyS3RyZXhQTGwyUi1DaDR2UnJBMThGWDhYVjNpeHRsUVQzbzc1RXJFdGJYbGhoZFcwM3E4czRmdUpEdlg5UDZrUDk3VU5nM2MzLW1iVFlVWWxUNGRZUk5LcVRjNnJlTVNKVQ",
-      "titleOriginal": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum - AD HOC NEWS",
-      "originalSnippet": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum AD HOC NEWS"
-    },
-    {
       "title": "Salesforce ชนะประมูลสัญญาซอฟต์แวร์ของกระทรวงกิจการทหารผ่านศึก (VA) มูลค่า 1.6 พันล้านดอลลาร์สหรัฐ - Moomoo",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUU9aRXJ6eFA1dDFMa0ZqaFZNVnY1aFl1RHZObVozMUdveklDc291SGpXOHVwNVI2VGViYkF6Y2hDVlVwUE55SUVqWjd6cWRsMjA1TXNEbG9xaHAyUktCell1M01rQ2psY2ZkQ2N3bEVmSUVFODlMbmlQM043M2hFVjE0X1BVLVlKWExJd2NpejdLVjREblJlcXFn?oc=5",
       "snippet": "Salesforce ชนะประมูลสัญญาซอฟต์แวร์ของกระทรวงกิจการทหารผ่านศึก (VA) มูลค่า 1.6 พันล้านดอลลาร์สหรัฐ Moomoo",
@@ -2603,7 +2607,7 @@
       "id": "ad949912a07167dc",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUU9aRXJ6eFA1dDFMa0ZqaFZNVnY1aFl1RHZObVozMUdveklDc291SGpXOHVwNVI2VGViYkF6Y2hDVlVwUE55SUVqWjd6cWRsMjA1TXNEbG9xaHAyUktCell1M01rQ2psY2ZkQ2N3bEVmSUVFODlMbmlQM043M2hFVjE0X1BVLVlKWExJd2NpejdLVjREblJlcXFn",
       "contentHash": "bb004e1f36602ab6fe0fbc61",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 17,
@@ -2663,6 +2667,82 @@
       "originalSnippet": "Salesforce ชนะประมูลสัญญาซอฟต์แวร์ของกระทรวงกิจการทหารผ่านศึก (VA) มูลค่า 1.6 พันล้านดอลลาร์สหรัฐ Moomoo"
     },
     {
+      "title": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcWp5bjVXY1VucDVScnpJaEQ0cU9FdGoyOGtudkpaVmtlQkZ0QkFvdFotb1ByTHBGMDdYbFZpbzc0N0FOaW1ueEdYNWszN3Y4OVZ0cHhzVWxpalFGSXJtVC1oQkpMeXN5T2MyS3RyZXhQTGwyUi1DaDR2UnJBMThGWDhYVjNpeHRsUVQzbzc1RXJFdGJYbGhoZFcwM3E4czRmdUpEdlg5UDZrUDk3VU5nM2MzLW1iVFlVWWxUNGRZUk5LcVRjNnJlTVNKVQ?oc=5",
+      "snippet": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum AD HOC NEWS",
+      "publishedAt": "2026-07-25T05:13:34.000Z",
+      "sourceId": "google-news:en-TH",
+      "sourceName": "AD HOC NEWS",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "d680d1d6ad6c6798",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcWp5bjVXY1VucDVScnpJaEQ0cU9FdGoyOGtudkpaVmtlQkZ0QkFvdFotb1ByTHBGMDdYbFZpbzc0N0FOaW1ueEdYNWszN3Y4OVZ0cHhzVWxpalFGSXJtVC1oQkpMeXN5T2MyS3RyZXhQTGwyUi1DaDR2UnJBMThGWDhYVjNpeHRsUVQzbzc1RXJFdGJYbGhoZFcwM3E4czRmdUpEdlg5UDZrUDk3VU5nM2MzLW1iVFlVWWxUNGRZUk5LcVRjNnJlTVNKVQ",
+      "contentHash": "5ced25ae960c2dbd5b3d82a2",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 17,
+      "matchedCategories": [
+        "PLATFORM",
+        "COMPETITOR"
+      ],
+      "matchedCompetitors": [
+        "Salesforce"
+      ],
+      "matchedBrands": [
+        "Salesforce"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum - AD HOC NEWS",
+      "shortSummaryTh": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum AD HOC NEWS",
+      "classification": "negative",
+      "impactScore": -3,
+      "confidence": 53,
+      "relevanceScore": 65,
+      "newsCategory": "COMPETITOR",
+      "affectedChannels": [
+        "SAAS"
+      ],
+      "affectedProducts": [
+        "AI_ENGINE"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [
+        "Salesforce"
+      ],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "negative"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [
+        "คู่แข่ง (Salesforce) เคลื่อนไหวในตลาด"
+      ],
+      "reasoningSummary": [
+        "ตรวจพบคู่แข่ง: Salesforce"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Founder & Strategy",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "immediate",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcWp5bjVXY1VucDVScnpJaEQ0cU9FdGoyOGtudkpaVmtlQkZ0QkFvdFotb1ByTHBGMDdYbFZpbzc0N0FOaW1ueEdYNWszN3Y4OVZ0cHhzVWxpalFGSXJtVC1oQkpMeXN5T2MyS3RyZXhQTGwyUi1DaDR2UnJBMThGWDhYVjNpeHRsUVQzbzc1RXJFdGJYbGhoZFcwM3E4czRmdUpEdlg5UDZrUDk3VU5nM2MzLW1iVFlVWWxUNGRZUk5LcVRjNnJlTVNKVQ",
+      "titleOriginal": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum - AD HOC NEWS",
+      "originalSnippet": "Salesforce stock trades steady as investors weigh FY2026 guidance and AI cloud momentum AD HOC NEWS"
+    },
+    {
       "title": "‘OpenWorker’ AI Agent โอเพนซอร์ส เลือกโมเดลได้อิสระ ข้อมูลไม่ออกนอกเครื่อง",
       "link": "https://techsauce.co/ai/andrew-ng-openworker-open-source-ai-coworker",
       "snippet": "Andrew Ng เปิดตัว OpenWorker AI Agent โอเพนซอร์สที่ส่งงานเสร็จ ๆ กลับมาให้แทนบทสนทนา ทั้งเอกสาร ข้อความ Slack และปฏิทิน รันบนเครื่องผู้ใช้เอง เลือกโมเดลได้อิสระ ข้อมูลไม่ออกนอกเครื่อง และใช้ฟรีภายใต้สัญญา MIT",
@@ -2677,7 +2757,7 @@
       "id": "7cf2a6060641bd71",
       "canonicalUrl": "https://techsauce.co/ai/andrew-ng-openworker-open-source-ai-coworker",
       "contentHash": "f8b659a7641243b08c25793a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -2747,7 +2827,7 @@
       "id": "84a1b88c5bcbc64b",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZF9uUVNIcTlpNmtWZl9ieXUwTmx0bmJTLUFhRnpJcWd2MTA1VGt3NkVIV0g4WlVTUkVpNEt2TWpUZ1M0NVpzRFhZUGZrNGVZb3FMTTRveGw4ODB4TWZfSmNWSF94RmMwX1RrUmxDYjNHMmx3a3JaUlBGVmNFMFRiOHRnZEFMR0NxQjhDRUtwRjhpUkZHaUZQbFJjVXpCY2tpQkVEZThlY0ppSXB0VVJ0LTlSMFhNc3c0NTNYaWQzanlHRzBTcjR3NVI4NWFpRDRlcmJtem5BRWg3WjNXTDZRT081cw",
       "contentHash": "950d72bf9c3a4b0a9a172714",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -2820,7 +2900,7 @@
       "id": "e7d6c012a6b9008a",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hT09WMGpqcTJsbVVKbnpnZUNnUlFBenlLNUhLZkFYcVdwWE9hU3R1WUJMMDNTMXJuTDl0ckFCdmE1WF9jRGdjSmJnOWlZa2VGMGRxci1R",
       "contentHash": "dfab717bcdfbd3674f5e8e07",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 14,
@@ -2887,7 +2967,7 @@
       "id": "3c772b4d25438f69",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iVWd0R2ZESnBBT3lIdzBWYWt6WDhhalMtTUxCTVpveUFlekh0YmVTbWpCVmJJQlhwb3hQMC02bkNwb0JwemMyUzhvdkFLbkU2Y1NCT2R0aw",
       "contentHash": "a6db074958f97b57cb8198f8",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -2954,7 +3034,7 @@
       "id": "04a98cc6f6178d4c",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNckJNVnpHUE5tUFZoZ3Q1RWxqa1c2aTNCQm5mUjNFYzRNb0ZQUnFoeDdROU5pcGM3bUFoX0pPM3p4ZWpZMThOU3lORzZWSUpTZnhCLXliUGZ5a0g4NVU5OWZ1YWJJMFN2ZHZOUHNHcGVWcDc2bjNCUzkzVFdoOFBzVFVOeHFDVHNEMERBRnVFS0VlXy1aZTAwbUhhcE1FVThuc29lcjZPdGRPTi1zdEo5dGwzb2Z3ZHFjMzZ3RTU1YVRJcmtKb1lyOVFJMDdDc2hJU3hIdll5cmlFMEdBY1ZLTGZDNFVNR2s2dVVhamViOA",
       "contentHash": "594476cf36c10a5da9d69c4e",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 31,
@@ -3034,7 +3114,7 @@
       "id": "7fda1010d47c2ff3",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKOW5MQkxBUFY4YTdSWkhWTERqRm5rZ3BqWlFXMElOUWdicUo3a1ZEV0tieE5SZVp4aG04S3ZxbDhtX0JwcHZjRmtGNU5YWk12N3k3anR5bkpqTGJ2MzZYWGxzM0kxS3FVX0p3SC1md0dMZlFDZ1E",
       "contentHash": "7639fef849dc41c41830d3d2",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -3107,7 +3187,7 @@
       "id": "276e0387f773fa57",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVmJtMHAxMXk3RENnbFJySnVLWGlwRHdCQXNTc2kzelRpMmpyeFVReHhIODkyMlF5NGNlYkxlRV9VVGhoSXBEX3dLdjFnZ3JOTHlIWWZXQmF5VEtnZWM5SHpXbHkwTnNCNHc2dmVPYV9oZ2d0UTJ6LUJrRHFrMkdnSg",
       "contentHash": "c4cf0a95aee0d034272fad0e",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 21,
@@ -3179,7 +3259,7 @@
       "id": "4f9eebe9321d2c90",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRmtlV1lnNmI5WkdPOTVORFE1VGVqX0NaU0xyRmJZUG4wOTBJR0NkbjB3N2JjTG5uMVIyQm1zbkt3aElOc0JBajNLVlRrNDNvSUp4VEx3OWF3cUNaczNnNlg2alFsNXJISW53ZkNweGZlYnFUbmFnRWVWTUxGUTYtQlNHakdkaXlJekdvYkpkYkVCYzJiU0hfZThtanJXbHN1SGIycEt5SzV3RjlWY1hOdDdVMkVCWkU3NlQxYkwxMERZbUlPN2lXSEVsOUZ0ZTFjS3FPeEVmTkFITjlWRmVnRmUxLXdmQzk2VW5fWg",
       "contentHash": "0e0fca1edb4089150340e8ec",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -3250,7 +3330,7 @@
       "id": "3fa26bd8b62ce7c5",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRzNfU0pfeDlBMzlfXzhaQUZMWTN4eDFScUFnaFBEcVVLMlRFUGhRYVdiZzQzR0dCUEp1a1VhOFlTVnZZYm52c1lSV1UyeUpZT2xESlMwR0VyU3d5SDRocEpQVTdSbFNDRExxcGV6WGhjX0kyWGE3bmtLS2dLaHlrOGdlSDFtSjFySkZVZkZ5Zk14S2ZtZy05b1o5ZnJ4dXlJN2E2Z0dOUHlCcVg2U3N3SzVFMjJyQ1JlRGg2VC1QczZJMElUbktFTTdIZw",
       "contentHash": "188a76d5aa5fdbc82a5069ff",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 17,
@@ -3318,23 +3398,24 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUnhrVGZsMDhCRW9BMWR2RnJ0eHVNMk5FZjdYcFkybTRkcXEza0ZQVUl4Y2V6MlhjSW1CaGN5WG91TkNSQWRUSEd5ZlY0czVseWFVNE1JVE12dXFxaXdsc28wNW5sTnMtOGF5aXMtSWptc0dBUXNkSGx3NWs3SDloQWFlTGd3V2RTdHRYNDJHWXZMWjVFbVRNREVKY2pjcHVEZ2VLTk9sLU4?oc=5",
       "snippet": "AI Digital Workers Are Transforming Enterprise CRM and Business Automation Daily Pioneer",
       "publishedAt": "2026-07-25T10:42:42.000Z",
-      "sourceId": "google-news:en-TH",
+      "sourceId": "google-news:en-SG",
       "sourceName": "Daily Pioneer",
       "sourceTier": 2,
-      "sourceCountry": "TH",
+      "sourceCountry": "SG",
       "language": "en",
       "unverified": false,
       "itemKind": "news",
       "id": "ebc6a8d9313e5d63",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUnhrVGZsMDhCRW9BMWR2RnJ0eHVNMk5FZjdYcFkybTRkcXEza0ZQVUl4Y2V6MlhjSW1CaGN5WG91TkNSQWRUSEd5ZlY0czVseWFVNE1JVE12dXFxaXdsc28wNW5sTnMtOGF5aXMtSWptc0dBUXNkSGx3NWs3SDloQWFlTGd3V2RTdHRYNDJHWXZMWjVFbVRNREVKY2pjcHVEZ2VLTk9sLU4",
       "contentHash": "7405ba73136c125114dc50ae",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 26,
+      "prefilterScore": 29,
       "matchedCategories": [
         "AI_TECH",
-        "CRM_SALESTECH"
+        "CRM_SALESTECH",
+        "INTERNATIONAL"
       ],
       "matchedCompetitors": [],
       "matchedBrands": [],
@@ -3397,7 +3478,7 @@
       "id": "454f0852e1a40395",
       "canonicalUrl": "https://youtube.com/watch?v=9TvngWGLsxg",
       "contentHash": "9f32f18d9ea5dd406028b22a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -3466,7 +3547,7 @@
       "id": "138214ae84e709ce",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPYVZrVTI5ZU9KQm5NZUJSRVZ1OVZzZEQ0ZExRaUFzSTBId29RM25YelJLTXMxSE5qLTVQekJvbjAxVGI5a0Nya1h0TjQwbHZ5MVVZbllscHF3S0M4MHoyLXB6YXotMndVTTR6ay1yMS01WC11QVJPMnZHc2UzNHFnRVlOSV82YkNZcFVscFlPQmJNbWV4bngzdEdxMWdxMjVCQ0dsdEVVTU5vazJqMkpET0hJTVpDUDZIU3IwM01EVlEwNWdZdUV4SDY4bXY4Y0RzZEYtU093LVFzcDBHREdrQmxBSE5FY3dEdGZBTW1peThFWVMxZ2ZOODRYMHM0dUJCQ3FV",
       "contentHash": "e3f96366c4a6be8c2cab26ac",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 22,
@@ -3534,7 +3615,7 @@
       "id": "5540b363a80eeece",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mNFByWEU1SEVjSkJjeUVXTV8wdXpGOEx6U0V2Z1U0QXg2Z1Q3ODBORU51NTVUNENuUXpHNEc2ZU5mZE80ektJMHFtTTV6Zko0Z2prMG5rSGRnZ3JQWHdKS2hkOA",
       "contentHash": "015db97074f0ff788d710f73",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 21,
@@ -3603,7 +3684,7 @@
       "id": "ba326b7f39ecfc3f",
       "canonicalUrl": "https://youtube.com/watch?v=zzJ4nXcgk-o",
       "contentHash": "9697a1278b521d416613db83",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 19,
@@ -3671,7 +3752,7 @@
       "id": "16a7c3de8ef9d690",
       "canonicalUrl": "https://youtube.com/watch?v=xGacKnB4Me8",
       "contentHash": "a76389105c88551af1d215fa",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -3738,7 +3819,7 @@
       "id": "da67f4aba88bf610",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN1IwcHBWUGdXR3E2Rkxaam03cnB3VUYzcGVHUVBoZ2dnYW1VZnlxNWFwWGFTVDd1RU1EWG5VaVl2aHQwRGhIUWZWamR1aUJ3bThobXZGR202VnQtcEJ5ZFFkakQ1VDJ1b0x2V2RyM01BWk9fV0ZTdVdoTUNvWDhWYlF3",
       "contentHash": "f8355d6681a77776b2b2ef8b",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -3806,7 +3887,7 @@
       "id": "50b868dbe7c53aec",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56bm1YOVNCYWpVXzdrX1hBa29pMWZKeHdZajBqQ0wtblMyYVpJRF9YcC1GNlgtWG8zWEhaTnREVjVWQUYyeXoxZjBhcndESGc2T0k4a2drYlRubmMxNnBSR2NXOVhZV2d0NHBjdWxCNG5DY0JobEcxamhjaVNIdXM",
       "contentHash": "89e44d2d0c1bb99245a53214",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -3872,7 +3953,7 @@
       "id": "976908d9b74e71e2",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbGZLc2lWV01qSjJJeGk4Uk1DS1Q1VWN5b0JWTUxVemVhZnFIdUFyS2ZTNmtZQnZQenBVNE9XZ3Q0QzdCSGRXTHpTcG8xYUVaT1NGZ1hqd1hMZHp3ekY3RVpvVVh0NHlsN3VhU3VlQkNDdEIxTjE3RW5TRjNVT2pWSEd4Z0VnUWQwTDM0ZzViVVRpSGkxSHAwcjBVWlNIRVg4NnYxVVF2OXNZbDdpVE5pb2xjXzRTOWwxZkJoSXJsRXBOQXZGTHdv",
       "contentHash": "3e7e1c90e4ba4ac7e0969982",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -3938,7 +4019,7 @@
       "id": "186a2b89f562073d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUUVYVWloQWNEN25iU3l6aS1rcWM3emdLU1dTVzB0RVNEbG5aNVJucjBLMG9hdWFSa3V0U0g3YTRPVjZQNC10c3JsZ2p6ZVlFS21FWEhHQVdyZlZ0OGxNR2FaeFVSTWYzTGhaN1R4VVhqU2xSYXhRU0lOdVpkdVB1cFRpcVh6bFhmSmZOR0JNeVh1c2UwMTN1R1pXWWRib045",
       "contentHash": "e5ee317d3a61a251873a5694",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -4004,7 +4085,7 @@
       "id": "fc272c18a161ce17",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ25TT2tLMW1oRzFuWWJ5bjhKMXVuU0s5YTVnTmNERFRfVUJaS2Zoc1EwRWRWTHlZaVVQSmU3eGZrS2M3ZFMzTGhGbnI4alJBZ0dQWC1QdUtHU1RRaUh0YkhvWU5tR0FnWWlyaXA3MHBIUE5rNUdzUVg1OW0yUEVQV293Si02UkZqRFROREZJVFY5dmJYM1BlR2M4SXc4VHRa",
       "contentHash": "913adbd4e6febf0a26fcf140",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -4070,7 +4151,7 @@
       "id": "fd46776a7669b024",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYUtDNDhVbWYyQ18xVTJFMzJJc09RX0txYVB1LWlfQ0NoOVcyM0dkS0JlN1FyQ2lxMVh4VTRGUm83dUpJb3ZMbGRDRlRpMkFaUEZ5VjJvSGxpajBNcDluZkQ2eG4zTGpTVzVnSFZCeUdpaHJNdWpmekozakoxb3BhOUVBQ2lBbWhLTWVDNFFPLS1aT0VGcXZldHVudWtaRjhh",
       "contentHash": "0dd425517f9e82946eff4aeb",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -4136,7 +4217,7 @@
       "id": "113a9f61cd104008",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMi1jbTA1WmQ4bnBBaHprUzVOOGVLSUdfNDFpY1VKWHpmRTJhYVNJRWtGeWNId3M0MUZMTDRJbldSRkZuTFItb3dJVmNod3E3SGozemdOTmY3TGhxbTlzQnhNNE5HMTIwMGN3SWpibEVPcFBaQTVvU2l4RUpaRmM4TA",
       "contentHash": "218e90fc1e40ad45e07080ff",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -4204,7 +4285,7 @@
       "id": "04b20be92e4c6165",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DTC1EalpOamdUTkllZGNoVUpvWmNGUDJEdkpTNXNJVnZ1RXp5dmF4WmNHamI4NXNOVUo0THVSVmF2UDVoLV9lRDBfVWtoVHJxVmVfRndxbTJxQVdpaExCTkYtMA",
       "contentHash": "ace0df75f4ad36377de92af8",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -4258,6 +4339,72 @@
       "originalSnippet": "เมื่อปัญญาประดิษฐ์ (AI) กำลังเฟื่องฟู ใครจะเป็นคนจ่ายค่าไฟฟ้า? Vietnam.vn"
     },
     {
+      "title": "ปัญญาประดิษฐ์และเวชศาสตร์ฟื้นฟูเปิดเส้นทางใหม่สำหรับการพัฒนาเวชศาสตร์ทางเพศ - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcnBsV1pKWkF5WGJEbHMwZVNGcjZfUVpWMUw0ZkhjYi0xalptR0ZwbUpiUWFneEhFS0dBWE5EQmFEWHhQY1M4U1V2NUp5Y3F2WnB6SDkyWHNZYUxRcC1BbFRlTTZ4RDRsQ3VDRzZxeDRmbzNMRWJoQ0lFR0dBUnh0QWo4QzktdnN4cmUxSXRzdEZQRHREd24zaHU3cEtjQnlMZEU2dkt3?oc=5",
+      "snippet": "ปัญญาประดิษฐ์และเวชศาสตร์ฟื้นฟูเปิดเส้นทางใหม่สำหรับการพัฒนาเวชศาสตร์ทางเพศ Vietnam.vn",
+      "publishedAt": "2026-07-25T17:04:14.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "7b15c169bcd186e4",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcnBsV1pKWkF5WGJEbHMwZVNGcjZfUVpWMUw0ZkhjYi0xalptR0ZwbUpiUWFneEhFS0dBWE5EQmFEWHhQY1M4U1V2NUp5Y3F2WnB6SDkyWHNZYUxRcC1BbFRlTTZ4RDRsQ3VDRzZxeDRmbzNMRWJoQ0lFR0dBUnh0QWo4QzktdnN4cmUxSXRzdEZQRHREd24zaHU3cEtjQnlMZEU2dkt3",
+      "contentHash": "39a2846c416ab3e0194e90e7",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 16,
+      "matchedCategories": [
+        "AI_TECH",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ปัญญาประดิษฐ์และเวชศาสตร์ฟื้นฟูเปิดเส้นทางใหม่สำหรับการพัฒนาเวชศาสตร์ทางเพศ - Vietnam.vn",
+      "shortSummaryTh": "ปัญญาประดิษฐ์และเวชศาสตร์ฟื้นฟูเปิดเส้นทางใหม่สำหรับการพัฒนาเวชศาสตร์ทางเพศ Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 62,
+      "newsCategory": "AI_TECH",
+      "affectedChannels": [
+        "SAAS"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Founder & Strategy",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcnBsV1pKWkF5WGJEbHMwZVNGcjZfUVpWMUw0ZkhjYi0xalptR0ZwbUpiUWFneEhFS0dBWE5EQmFEWHhQY1M4U1V2NUp5Y3F2WnB6SDkyWHNZYUxRcC1BbFRlTTZ4RDRsQ3VDRzZxeDRmbzNMRWJoQ0lFR0dBUnh0QWo4QzktdnN4cmUxSXRzdEZQRHREd24zaHU3cEtjQnlMZEU2dkt3",
+      "titleOriginal": "ปัญญาประดิษฐ์และเวชศาสตร์ฟื้นฟูเปิดเส้นทางใหม่สำหรับการพัฒนาเวชศาสตร์ทางเพศ - Vietnam.vn",
+      "originalSnippet": "ปัญญาประดิษฐ์และเวชศาสตร์ฟื้นฟูเปิดเส้นทางใหม่สำหรับการพัฒนาเวชศาสตร์ทางเพศ Vietnam.vn"
+    },
+    {
       "title": "สร้างความไว้วางใจทางดิจิทัลในยุคปัญญาประดิษฐ์ (AI) - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94c2d6amVVMk1XZDdJdVhFdnJBV2Vmdm5xR1JHUWd3VUIxREtOdUdmSlJIMlJjdm8wd1JrRnhBVTVqWWljZFJXbVQ0dGlrYnlGdkQyRUFTdGJoLU5yNi00UGhUbVhrQVhsOXFnWnNocnNmMDA?oc=5",
       "snippet": "สร้างความไว้วางใจทางดิจิทัลในยุคปัญญาประดิษฐ์ (AI) Vietnam.vn",
@@ -4272,7 +4419,7 @@
       "id": "6bb0d9b499271ecf",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94c2d6amVVMk1XZDdJdVhFdnJBV2Vmdm5xR1JHUWd3VUIxREtOdUdmSlJIMlJjdm8wd1JrRnhBVTVqWWljZFJXbVQ0dGlrYnlGdkQyRUFTdGJoLU5yNi00UGhUbVhrQVhsOXFnWnNocnNmMDA",
       "contentHash": "537d8e4b5e2416b13a68c857",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 16,
@@ -4326,74 +4473,6 @@
       "originalSnippet": "สร้างความไว้วางใจทางดิจิทัลในยุคปัญญาประดิษฐ์ (AI) Vietnam.vn"
     },
     {
-      "title": "ขยายเวลาส่งบทความสำหรับการประชุมวิชาการระดับชาติ “ปัญญาประดิษฐ์เพื่อการเข้ารหัสและความปลอดภัยของข้อมูล (AI4CRIS 2026)” - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb1doRGdZSXlrVl9aZzVacmN3SWt4OGFKWnpubzk4Mk1pNDhMcnd5cXhNQ2stVjJHSHI1d1FsMmo5X0VoQ3B0b1NaWW9ZMGw1RzVzdnN1RWFObXB4N1BwOTd5SVlpSkt6UmZoUHNydURYUGszektWTVpvSDhvLWNuc29teTgyODVmV1JGRFlfQk9NR0tyTHJ0ZEZwdjh5RkVNNjNYMGwxMmZEVDVSTjM0cmZTS3NoQnpLbThCMXNFQjR1bVA2cFR3b1UxY0ZiUzIzWkFkRkZLNHRYSW5qWEZlU2hGZw?oc=5",
-      "snippet": "ขยายเวลาส่งบทความสำหรับการประชุมวิชาการระดับชาติ “ปัญญาประดิษฐ์เพื่อการเข้ารหัสและความปลอดภัยของข้อมูล (AI4CRIS 2026)” Vietnam.vn",
-      "publishedAt": "2026-07-25T12:45:48.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "Vietnam.vn",
-      "sourceTier": 2,
-      "sourceCountry": "TH",
-      "language": "th",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "60436b14fcd7ead6",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb1doRGdZSXlrVl9aZzVacmN3SWt4OGFKWnpubzk4Mk1pNDhMcnd5cXhNQ2stVjJHSHI1d1FsMmo5X0VoQ3B0b1NaWW9ZMGw1RzVzdnN1RWFObXB4N1BwOTd5SVlpSkt6UmZoUHNydURYUGszektWTVpvSDhvLWNuc29teTgyODVmV1JGRFlfQk9NR0tyTHJ0ZEZwdjh5RkVNNjNYMGwxMmZEVDVSTjM0cmZTS3NoQnpLbThCMXNFQjR1bVA2cFR3b1UxY0ZiUzIzWkFkRkZLNHRYSW5qWEZlU2hGZw",
-      "contentHash": "18602d9d614e90a79d4ad3fc",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 16,
-      "matchedCategories": [
-        "AI_TECH",
-        "INTERNATIONAL"
-      ],
-      "matchedCompetitors": [],
-      "matchedBrands": [],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "ขยายเวลาส่งบทความสำหรับการประชุมวิชาการระดับชาติ “ปัญญาประดิษฐ์เพื่อการเข้ารหัสและความปลอดภัยของข้อมูล (AI4CRIS 2026)” - Vietnam.vn",
-      "shortSummaryTh": "ขยายเวลาส่งบทความสำหรับการประชุมวิชาการระดับชาติ “ปัญญาประดิษฐ์เพื่อการเข้ารหัสและความปลอดภัยของข้อมูล (AI4CRIS 2026)” Vietnam.vn",
-      "classification": "neutral",
-      "impactScore": 0,
-      "confidence": 58,
-      "relevanceScore": 62,
-      "newsCategory": "AI_TECH",
-      "affectedChannels": [
-        "SAAS"
-      ],
-      "affectedProducts": [
-        "AI_ENGINE"
-      ],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [],
-      "okrImpact": {
-        "O1": "neutral",
-        "O2": "neutral"
-      },
-      "positiveImpacts": [],
-      "negativeImpacts": [],
-      "reasoningSummary": [
-        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Founder & Strategy",
-          "priority": "medium",
-          "deadline": "monitor"
-        }
-      ],
-      "timeHorizon": "1-3 months",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb1doRGdZSXlrVl9aZzVacmN3SWt4OGFKWnpubzk4Mk1pNDhMcnd5cXhNQ2stVjJHSHI1d1FsMmo5X0VoQ3B0b1NaWW9ZMGw1RzVzdnN1RWFObXB4N1BwOTd5SVlpSkt6UmZoUHNydURYUGszektWTVpvSDhvLWNuc29teTgyODVmV1JGRFlfQk9NR0tyTHJ0ZEZwdjh5RkVNNjNYMGwxMmZEVDVSTjM0cmZTS3NoQnpLbThCMXNFQjR1bVA2cFR3b1UxY0ZiUzIzWkFkRkZLNHRYSW5qWEZlU2hGZw",
-      "titleOriginal": "ขยายเวลาส่งบทความสำหรับการประชุมวิชาการระดับชาติ “ปัญญาประดิษฐ์เพื่อการเข้ารหัสและความปลอดภัยของข้อมูล (AI4CRIS 2026)” - Vietnam.vn",
-      "originalSnippet": "ขยายเวลาส่งบทความสำหรับการประชุมวิชาการระดับชาติ “ปัญญาประดิษฐ์เพื่อการเข้ารหัสและความปลอดภัยของข้อมูล (AI4CRIS 2026)” Vietnam.vn"
-    },
-    {
       "title": "Anthropic ออก Claude Opus 5 บอกเก่งเทียบเท่า Fable 5 แต่ถูกกว่าครึ่งหนึ่ง",
       "link": "https://www.blognone.com/node/151227",
       "snippet": "Anthropic ออก Claude Opus 5 บอกเก่งเทียบเท่า Fable 5 แต่ถูกกว่าครึ่งหนึ่ง Body Anthropic อัปเดตโมเดลปัญญาประดิษฐ์รุ่น(เคย)บน Claude Opus 5 โดยคราวนี้เทียบกับ Fable 5 ที่เป็นโมเดลรุ่นบนสุดปัจจุบัน บอกว่ามีความฉลาดในการทำงานซับซ้อนใกล้เคียงกัน แต่ราคาใช้งานถูกกว่าครึ่งหนึ่ง Opus 5 มีความเก่งกว่าทุกหัวข้อเมื่อเทียบกับ Opus 4.8 ทั้งงานความรู้รอบตัว งานเขียนโค้ด ส่วนหัวข้อที่มักเจอการจำกัดใน Fable 5 อย่างเคมี-ชีววิทยา ก็ไม่มีปัญหาเรื่องนี้ เพราะโมเดลถูกควบคุมไว้แล้วในตอนฝึกฝนข้อมูล Opus 5 ราคา 5/25 ดอลลาร์ต่อล้านโทเค็น เท่ากับ Opus 4.8 ที่มา: Anthropic arjin Sat, 25/07/2026 - 08:07",
@@ -4408,7 +4487,7 @@
       "id": "70c497529ccfa443",
       "canonicalUrl": "https://blognone.com/node/151227",
       "contentHash": "32269d48f72ece42826dfe3a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 15,
@@ -4476,7 +4555,7 @@
       "id": "9a0c07aed53a7b8d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUVRuTndyNHVrbnppT0hjdmJqVmhRMGw1TGVvSktreFUxRFNTUHRJajlSMVdlOUtVdEpfNG1NMU9uWWhSY2JNdk9YYzk0OFF3b3ZENEk0YWc4dFpuaVFYWmFEbnlpQkhuaXpLQ0FhRXIzcE4ydUNCSi0zU0RFMlltbFNwZlNiRk43dEE",
       "contentHash": "aa57e7eeb2edb2604b19dedf",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 15,
@@ -4546,7 +4625,7 @@
       "id": "d02eec62d8fb025e",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5seE93eXJuM0VSQ05fanE3SE53NFBtZUVVbER5bjJ1WFc2ZnRTVWREQzlHVlNCamJQRFgwaHo4bXZYMmhTMVZyaDQ1azFIYktoRG0w",
       "contentHash": "12fad899c7a25e1dd5572595",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 15,
@@ -4616,7 +4695,7 @@
       "id": "625dd49523e522b5",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mbWhrUU9uOUFvVWpJUVloNVl2UGdaY2I2QnlHUE5YZkcxOGZrSXphSHAyVzMta1RtM3lITzFfRVFrd0N6bUpNQ19ZUG9XR2lnUHFKSFBrMF9nck5FSkxLMnFGRW1OdzYxOF92cVpnQ2I",
       "contentHash": "46486f8ef8f3879226f3eef2",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 14,
@@ -4683,7 +4762,7 @@
       "id": "70c9e385a20d3441",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdVlhRGVkQ1dCaDd1amRjSkpCTzYxWlc3U2V2Y2NqUW5GQ1BCOGpTb0Jkc0Nqbk1NU1ZqOS1tVS1fUEZPMFZkSW9xNTVCekJPUFBWejNPRG9taFh0dV9ISzVyb0F5M2J4Mlo2aWN4ODB3Wkl1LVZxV19kczZxbURSTHp0Y1FBcXlZbTFUSEdoLTRqVHo5",
       "contentHash": "0196b812beecc2d8c55e63ea",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 14,
@@ -4751,7 +4830,7 @@
       "id": "748d7ef87e37df1a",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM0NCSF8zdVpnQ3psT3ZhR3BMNlJLYlc4Z1QzXzJlMjNsdzVGX01nS2RKblZPUjhPQ2RmUUJpUExJX2ktdmNxLUp5VnN5UkJyOV93N2hSQ0FIQzA3SnF2dXlYVHFDZW5DT0szXzl4RzRWbzNUVDluREpKMVVpUmc4QmRzVG9SemgyNFp6dzM5b3JmVDZGZHdqSVM0XzQzaFdYbGRCdzFLQnB2UktCSm51Wks2VWhVbjhw",
       "contentHash": "954893eea27cb9319415df83",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 14,
@@ -4822,7 +4901,7 @@
       "id": "96859e843c76647d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb0VCN2V5UXdOdmlVS0dFUnFEb1IzS3huMmNnMlphQWtnejVHS2JUX19wdlFWWXM0aTM4WlRPVHhaNV90blMtWmFlajd2dzA5XzZ6SjhDOTREb25sdE83ZkFiOUR0U3lic3hfWXlOM2hSSWthRllhYmpWYm5PblJleUVackx4TExzNENlRU9hRHBFMk5Td0Q0eEdueWE0bkV5LW9Tc1BCMHY5SlFDbkp3Q3M5dVFqcmtEUzh0M0hTVUFKRXdUTmZtYlEyMXlKZ0h4OUt5NENja2lITHpocFlUNHlibw",
       "contentHash": "595e42a2fa11ce4a6d069639",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 14,
@@ -4889,7 +4968,7 @@
       "id": "66b92811dff4223a",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNjcwaXg0MjhHXzZlb01pM3A5amxPd0ZKV0UzMGhobUFyWEcxaEJXbUI1UW5ZNFVMdlNjdHlyZlVrQllRS3dCX1VlS2N4U1M0V01HSmh2TnJnZlR6SUJLSl9VLWx2S3Jjc2xjVl9LeHlYbVhneVg4MGQwWTJ4ZktJVkdQUXdhLXk0eHhZNnRrWkppeXF0Z1g1SGc2cDd0NmFtNnRnVmJxcmFGenFUWDNfdg",
       "contentHash": "45ee9d7c411865968e9ded4a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 14,
@@ -4954,7 +5033,7 @@
       "id": "1e9131ced9759470",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPWTVpSEp3NVZRaml5ZldGSnRBaWlIMnJydEw5dFhfVzdlbFJ2MTllV1A3U0c0bHA3NE1VbHFERjlXMTktbkNZbE9NeG1tWkJyZmFlV21uRVUyMWp0R1U2N3hkYVBvWGcyTURpcHpuTnVZdGdwem95alZzQ1dWTW5xbFNnTTZLQVpYQ3ZBblNSV2FmYllJSkFiODZRN1pGN0kxRzZtaUtaNjJRNk5UaUFsal9BRFBxZWtDUnJ3Ukc2M2JkMmxubTJkMmVMRDNLUXViMnYzSU80RmJIZ09UdGxYOUpWamRoT2hXc3p5Vl85RXp4N04yQ2RfUGs5NjJjQTN0Wjkycw",
       "contentHash": "9e4f7a7d23605900c08da23d",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 14,
@@ -5025,7 +5104,7 @@
       "id": "4f6f29098b557f86",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN1cwYWhoQUdTeWxwWVZPTThHdzJsNDZ5MWRxbGRJWGNoajFQNlRPSmNoN1ZqdktiNEo3dVoxbUVVMWk0VjFWaHZzY2cydjVEdHRxb0tyWXJzRFF4Q2xnenh0ZnRSYVJleUVqbTktYmh3TnB3V1RxejRJQlJ6dWtrYXpLTlZ3MVI4dE9LeWpXOHRmaExEbjJuNnhiNVZQdVE",
       "contentHash": "469d574f613b753c2dd5fb56",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 14,
@@ -5092,7 +5171,7 @@
       "id": "543a88b8c094b5d2",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SZC0zazRWajlMa1RhbFhKZFRybVk0bm5ocWtxUFl5ZzMySVRXREpNN3ZTMTNmbjBsUFFOLVFLeFBoeGJvRXYzcUR2SFRwSXdvdk03cjFmMVR2akE",
       "contentHash": "8647d7e73b496a30f53c5d7a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 13,
@@ -5158,7 +5237,7 @@
       "id": "1de599fb0e522367",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWjRVak9CSTRVOHlRZ0xNMHZXVTRSa3o0YTZidXhFSUtKNmxSajBubnI4YTdfdzBlSDJid1lWU25XWThBUTJMWmc4OUpRYXVyVnVxWnZWSmNmUHdSR09GbDY0SHdSUHpEVjhSdUtsRXVsWFY1em9iVTBsenJrZzlZTE1abzhtajVpeDF2OWFfTEQzUlRrTDYzQmlTWnZRU2RTZ1g4U01CeHFOT3VrUjJsSTVMVGdTajhq",
       "contentHash": "dc27d6713167e67f60e2ef69",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 13,
@@ -5224,7 +5303,7 @@
       "id": "a56ba3eb3fa35107",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZHdxZk5uR2pNT2tkdE9TQXF6VU1ELVUtZDE5MWZDLXl6VXhKRm5RNmVEdWE5QXhxd0xobzQ3YmFIQUxsd3pNMEpLRnBabmFFcm9sSVlmVWwzSVpsUnh1SWVhaGtSUzA1SmplWlZLbEh2c0xjYklDSTlBdnJkWV9GYk1oQTV0eV9NZkw0YlVLaFkwM3ZHSHBaWl9nTQ",
       "contentHash": "700c549cd37f8c18409ffee2",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 13,
@@ -5296,7 +5375,7 @@
       "id": "5ec63db183fc4ad6",
       "canonicalUrl": "https://youtube.com/watch?v=PQHgT2RUPIk",
       "contentHash": "5d84d6f6a0c3808a2e39e003",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 13,
@@ -5364,7 +5443,7 @@
       "id": "fc4fbb2ced2986d0",
       "canonicalUrl": "https://blognone.com/node/151222",
       "contentHash": "77ffca5a48cb0f8d68252560",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -5431,7 +5510,7 @@
       "id": "3bbc71a3323b33ac",
       "canonicalUrl": "https://venturebeat.com/technology/venturebeat-research-where-enterprise-ai-agent-governance-hasnt-caught-up",
       "contentHash": "6efe098f3626f2fff70d2d38",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -5498,7 +5577,7 @@
       "id": "41fd603a69399054",
       "canonicalUrl": "https://zdnet.com/article/types-of-people-who-will-excel-in-ai-agent-era-according-to-tech-leaders",
       "contentHash": "71d359a7e0836a47ac272b5f",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -5565,7 +5644,7 @@
       "id": "649cc487c7e1e530",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBLWZ3LXczZFNNR1dqUFh5WjYtYUpBNVE1Q0kxVmJqSzgwUzA0aThBek5oQU9COThucE1rbkVQYThvc0hfaTA2U25SUGlfQ21FOXF2VExjWXg1UdIBX0FVX3lxTE9HbENPdnZJSGdCbWJ1WF85Y2pWZ1Q2UDRqWS1TMWpsbmU1QVhaYmFIZ3B0NkhlQVJtQ21PU1FxY2FHbXhNTFY0VVdXaW4yTVI0dm1JRGwzZm1uLUdEam93",
       "contentHash": "3f1cc13d503258e0ae86f9ca",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -5632,7 +5711,7 @@
       "id": "3634b3c0b780374a",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTUd5ZWhYeUdNWk5FN1BoSlF3S3RBTXpqejBsNExrYnhQVjFycDB6dkEwZmV6TU9TcUtaVFJ1b2FIYmJDY0hlZ2dlZ1o1dkIzZjRDMjRBTmVjeFAyNFJUTlM1d0pqLWRNbXVORjRrcThqcUFQNUNid05iVkRJRHFGdGJPam9nN2ZzdUd0NWJmVzhyTGJTbGFMWjdJYVNvbWg4MEYtSXFYTzQ5bGRNbl9lX1hR",
       "contentHash": "7fbd258f46523939466fce9a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -5699,7 +5778,7 @@
       "id": "0ffe331e6f9bac7c",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ0xERXVOd0hVdFBRVFdOLWEyWXUyNVk2Wk9lN0duY1JXOGRYVWpxa3VrUzh4bDV5dEtZYVczcjBiYmN0dGJ3ZUdNbVJYd2xfeGF1N1dNTTVOQkJtYXl4UXU1em1BUTJKYThRbW1CLXBZS25zQk5wOTVmeEttb1dobDk1WjZmNWZ1NUc0YmtGNElRUQ",
       "contentHash": "a2301edc6d39341b118b36db",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -5766,7 +5845,7 @@
       "id": "abc66c79927d061d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcWlCNTN3QUVtVmlpT2d5dXp6S0w0WVhEeXc3eGtmZjU2aFRhcVY2V1U3TFRobjF2TXpScmNrTUdDSDhxeTlYYWhKRW5hbXc2TEhBak03V1dad1ZGMEJSb2ZfOUNDMEI5VmpaNDVRc21kT0RXamF6cmNjNVJ4OVJ1djFxNUJJQjVKZGZnS1RMTWNDQjY4TV9EN1NFNmxON1Bw",
       "contentHash": "8ee42af557719c77d2139bec",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -5833,7 +5912,7 @@
       "id": "a7efac5f09451cf2",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZjVyeHppN3FfZjVvZlIwZll2TmlNelFGSFQ1MFlXVU9GcVQtMHZhWDN1RXFucXBrb3dzSEpRU2wzU0FIbElMLU5fV1BRWGxVVUhLdFVOUFk3Q09VTHJ6RWZxZ0ZvVnVvNlJXU0dybkZrcjJxUm9ocnZYVmlfa0NCMw",
       "contentHash": "9c85de44736af9e1eea7a47d",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -5900,7 +5979,7 @@
       "id": "96d7fd871e54e605",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSV9sczFCNmhQaVlpSTFzSGJjb1hYYzg5aTQ0aHFqMDdhZUtqcVloMGU1TUliRE1yaE54cl9YenRQMEZfYkRtTTM2TWZLaV85SzNhQnA1dDViemxGT3dQQVRLcGtHaGpmY2pYWVZ5MnMwREhKYy1odGxTY09sb19aRl9mTXFvV09mV09uMVR3T2REUmtKeUFSNWpjbzFNeW8xSmQ2YVJ5UFBIZE81WFpGQ0p3",
       "contentHash": "f077df091e442f5d3df47cee",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -5970,7 +6049,7 @@
       "id": "a608786f18d57c0b",
       "canonicalUrl": "https://youtube.com/watch?v=BxibwHTunxc",
       "contentHash": "ea144b5ee1bb92b030d67530",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -6037,7 +6116,7 @@
       "id": "cbfea0b5a09b8553",
       "canonicalUrl": "https://youtube.com/watch?v=zMOT7XF96PU",
       "contentHash": "f0435da5d3c6a79f13b14ca2",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -6111,7 +6190,7 @@
       "id": "3a3b592c7eb9d7b9",
       "canonicalUrl": "https://youtube.com/watch?v=cDX1QEO9Tyw",
       "contentHash": "9883c2ddc5642975608fe74f",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -6179,7 +6258,7 @@
       "id": "d5e420be218000c4",
       "canonicalUrl": "https://youtube.com/watch?v=ztUMIozP2gk",
       "contentHash": "1ccd4093e11e669464194977",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -6248,7 +6327,7 @@
       "id": "58a69c52686d7406",
       "canonicalUrl": "https://youtube.com/watch?v=4DHk43BEjI8",
       "contentHash": "f3c5edddb2c4395812b732ef",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -6316,7 +6395,7 @@
       "id": "d0581e82e2adea62",
       "canonicalUrl": "https://youtube.com/watch?v=q2Bp-1Eb63k",
       "contentHash": "8f76e546c31e783496e06525",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -6383,7 +6462,7 @@
       "id": "19e66fc01c4585f0",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PSE5OQ00wcmVvNjlqWjd6RGNVaDJHemRNdllHZ2VoLVlUMzMwb1VoMUdsdW5oT3cwZE9hWUI0aml5bXIzeE5qUUNBaUNKdWg1R19CQ2JmSFNaUQ",
       "contentHash": "7178a2d6014b33fca8baaa0a",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -6448,7 +6527,7 @@
       "id": "852d57a49f689ffa",
       "canonicalUrl": "https://pantip.com/topic/44170043",
       "contentHash": "a4943392066423d397439459",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -6515,7 +6594,7 @@
       "id": "219cbac7d9e5019b",
       "canonicalUrl": "https://youtube.com/watch?v=dv6mQHA1fWg",
       "contentHash": "e20859bfbe81ae95a426674f",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -6582,7 +6661,7 @@
       "id": "ec1aceef2836d80a",
       "canonicalUrl": "https://youtube.com/watch?v=2hX22N8z19o",
       "contentHash": "ea5a4819a36e721c68956c4d",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -6650,7 +6729,7 @@
       "id": "447f4dd4caa5b3f9",
       "canonicalUrl": "https://youtube.com/watch?v=4yZl-O4aCCQ",
       "contentHash": "58f639809acfffad886cc4d1",
-      "collectedAt": "2026-07-25T18:35:28.019Z",
+      "collectedAt": "2026-07-25T18:43:30.880Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -6707,133 +6786,133 @@
       "sourceName": "Blognone",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 1262
+      "durationMs": 1254
     },
     {
       "sourceId": "techsauce",
       "sourceName": "Techsauce",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 1950
+      "durationMs": 2311
     },
     {
       "sourceId": "prachachat",
       "sourceName": "ประชาชาติธุรกิจ",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2568
+      "durationMs": 2244
     },
     {
       "sourceId": "bangkokpost-tech",
       "sourceName": "Bangkok Post — Tech",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 3807
+      "durationMs": 3619
     },
     {
       "sourceId": "bangkokpost-business",
       "sourceName": "Bangkok Post — Business",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 6732
+      "durationMs": 5692
     },
     {
       "sourceId": "nikkei-asia",
       "sourceName": "Nikkei Asia",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1266
+      "durationMs": 1244
     },
     {
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1225
+      "durationMs": 1233
     },
     {
       "sourceId": "theverge",
       "sourceName": "The Verge",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 1269
+      "durationMs": 1239
     },
     {
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "ok": true,
       "itemCount": 7,
-      "durationMs": 1361
+      "durationMs": 1299
     },
     {
       "sourceId": "zdnet",
       "sourceName": "ZDNet",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1242
+      "durationMs": 1262
     },
     {
       "sourceId": "arstechnica",
       "sourceName": "Ars Technica",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1299
+      "durationMs": 1274
     },
     {
       "sourceId": "saastr",
       "sourceName": "SaaStr",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 1244
+      "durationMs": 1290
     },
     {
       "sourceId": "technologyreview",
       "sourceName": "MIT Technology Review",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 1248
+      "durationMs": 1282
     },
     {
       "sourceId": "google-news:th-TH",
       "sourceName": "Google News (th-TH)",
       "ok": true,
       "itemCount": 163,
-      "durationMs": 18203
+      "durationMs": 18191
     },
     {
       "sourceId": "google-news:en-TH",
       "sourceName": "Google News (en-TH)",
       "ok": true,
       "itemCount": 180,
-      "durationMs": 19301
+      "durationMs": 19260
     },
     {
       "sourceId": "google-news:en-SG",
       "sourceName": "Google News (en-SG)",
       "ok": true,
       "itemCount": 180,
-      "durationMs": 19179
+      "durationMs": 19197
     },
     {
       "sourceId": "google-news:en-US",
       "sourceName": "Google News (en-US)",
       "ok": true,
       "itemCount": 180,
-      "durationMs": 19179
+      "durationMs": 19178
     },
     {
       "sourceId": "google-news:en-GB",
       "sourceName": "Google News (en-GB)",
       "ok": true,
       "itemCount": 180,
-      "durationMs": 19227
+      "durationMs": 19177
     },
     {
       "sourceId": "pantip",
       "sourceName": "Pantip (ห้องเทคโนโลยี/ธุรกิจ)",
       "ok": true,
       "itemCount": 60,
-      "durationMs": 12486
+      "durationMs": 12340
     },
     {
       "sourceId": "facebook-owned",
@@ -6858,7 +6937,7 @@
       "sourceName": "YouTube (คำค้นที่ติดตาม)",
       "ok": true,
       "itemCount": 33,
-      "durationMs": 6155,
+      "durationMs": 6071,
       "configured": true
     }
   ],
@@ -6868,18 +6947,15 @@
     "[pantip:ธุรกิจ] HTTP 404 Not Found",
     "[pantip:ไอที] HTTP 404 Not Found",
     "[pantip:โปรแกรมเมอร์] HTTP 404 Not Found",
-    "[pantip:การขายออนไลน์] HTTP 404 Not Found",
-    "[ai:classify:4d0459fdd9b454dd] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CdPFwqgqRPusf6Zcdpidq\"}",
-    "[ai:classify:ba326b7f39ecfc3f] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CdPFwsoqMMVcPsXjTuCE1\"}",
-    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"adaptive thinking is not supported on this model\"},\"request_id\":\"req_011CdPFwujfuTrDgEyg3fRLU\"}"
+    "[pantip:การขายออนไลน์] HTTP 404 Not Found"
   ],
   "ai": {
     "enabled": true,
     "model": "claude-haiku-4-5-20251001",
     "itemsAnalyzedByAi": 0,
-    "itemsAnalyzedByFallback": 101,
-    "inputTokens": 0,
-    "outputTokens": 0,
-    "estimatedCostUsd": 0
+    "itemsAnalyzedByFallback": 100,
+    "inputTokens": 8983,
+    "outputTokens": 6869,
+    "estimatedCostUsd": 0.0508
   }
 }
