@@ -1,0 +1,209 @@
+# ============================================================
+# Keywords — ใช้ 2 หน้าที่
+#   1) สร้าง Search Query สำหรับ Google News RSS (query: true)
+#   2) ให้คะแนน Rule-based Prefilter (weight) ก่อนส่งเข้า AI
+#
+# หมายเหตุ: คีย์ "automotive_context" คงชื่อไว้ตามโครง Air4 (โค้ดอ้างชื่อนี้)
+# แต่เนื้อหาถูกปรับเป็น "บริบทเทคโนโลยี/SaaS/CRM" ของ SaleSync แล้ว
+# ============================================================
+
+# คำที่ "ต้องมีอย่างน้อย 1 คำ" จึงจะถือว่าอยู่ในบริบทเทคโนโลยี/ธุรกิจซอฟต์แวร์
+# เจตนา: ต้องมี "สัญญาณเทคโนโลยี/ซอฟต์แวร์" จริง ๆ — ไม่ใส่คำกว้างเกิน (ลูกค้า/ธุรกิจ/sales)
+# เพราะจะทำให้ข่าวทั่วไป (เช่น โอนเงิน) ผ่านประตูโดยไม่ตั้งใจ
+automotive_context:
+  th: [ซอฟต์แวร์, เทคโนโลยี, ดิจิทัล, สตาร์ทอัพ, เอไอ, ปัญญาประดิษฐ์, ข้อมูล, คลาวด์, แพลตฟอร์ม]
+  en: [software, tech, technology, digital, startup, AI, "artificial intelligence", data, cloud, SaaS, CRM, platform, enterprise, B2B]
+
+categories:
+
+  # ---------- 4.1 AI / เทคโนโลยีหลัก (Core) ----------
+  - id: AI_TECH
+    name_th: เอไอและเทคโนโลยี
+    weight: 12
+    core: true
+    terms:
+      th:
+        - { t: ปัญญาประดิษฐ์, query: true }
+        - { t: เอไอ }
+        - { t: Generative AI, query: true }
+        - { t: Agentic AI, query: true }
+        - { t: AI agent, query: true }
+        - { t: โมเดลภาษา }
+        - { t: automation }
+        - { t: ระบบอัตโนมัติ }
+        - { t: พยากรณ์ด้วยเอไอ }
+        - { t: เอไอในงานขาย, query: true }
+      en:
+        - { t: generative AI, query: true }
+        - { t: agentic AI, query: true }
+        - { t: AI agent sales, query: true }
+        - { t: large language model }
+        - { t: AI adoption enterprise, query: true }
+        - { t: predictive analytics, query: true }
+        - { t: sales automation, query: true }
+        - { t: AI for sales, query: true }
+        - { t: machine learning business }
+
+  # ---------- 4.2 CRM / Sales-tech (Core — ตลาดหลัก) ----------
+  - id: CRM_SALESTECH
+    name_th: CRM และ Sales-tech
+    weight: 14
+    core: true
+    terms:
+      th:
+        - { t: CRM, query: true }
+        - { t: ระบบบริหารลูกค้า, query: true }
+        - { t: ซอฟต์แวร์การขาย, query: true }
+        - { t: ระบบขาย }
+        - { t: จัดการทีมขาย }
+        - { t: บริหารพาร์ทเนอร์ }
+        - { t: ตัวแทนจำหน่าย }
+        - { t: sales pipeline }
+        - { t: เพิ่มยอดขาย }
+      en:
+        - { t: CRM software, query: true }
+        - { t: sales tech, query: true }
+        - { t: revenue operations, query: true }
+        - { t: RevOps }
+        - { t: sales enablement, query: true }
+        - { t: partner relationship management, query: true }
+        - { t: customer retention }
+        - { t: churn reduction }
+        - { t: field sales software, query: true }
+
+  # ---------- 4.3 SaaS / Cloud ----------
+  - id: SAAS_CLOUD
+    name_th: SaaS และคลาวด์
+    weight: 8
+    terms:
+      th:
+        - { t: SaaS, query: true }
+        - { t: ซอฟต์แวร์บริการ }
+        - { t: คลาวด์ }
+        - { t: subscription }
+        - { t: สมัครสมาชิกซอฟต์แวร์ }
+        - { t: ตลาดซอฟต์แวร์ธุรกิจ, query: true }
+      en:
+        - { t: SaaS market, query: true }
+        - { t: cloud software, query: true }
+        - { t: subscription revenue }
+        - { t: ARR growth }
+        - { t: vertical SaaS, query: true }
+        - { t: enterprise software spending, query: true }
+        - { t: B2B SaaS Thailand, query: true }
+
+  # ---------- 4.4 กฎเกณฑ์ข้อมูล/AI (Dual-impact) ----------
+  - id: DATA_REGULATION
+    name_th: กฎเกณฑ์ข้อมูลและ AI
+    weight: 10
+    dual_impact: true          # ผลกระทบสองทาง: ต้นทุน compliance (ลบ) vs จุดขาย (บวก)
+    terms:
+      th:
+        - { t: PDPA, query: true }
+        - { t: คุ้มครองข้อมูลส่วนบุคคล, query: true }
+        - { t: กฎหมายข้อมูล }
+        - { t: กำกับดูแล AI, query: true }
+        - { t: ความเป็นส่วนตัวข้อมูล }
+        - { t: ข้อมูลรั่วไหล, query: true }
+        - { t: ธรรมาภิบาลข้อมูล }
+      en:
+        - { t: PDPA Thailand, query: true }
+        - { t: data privacy regulation, query: true }
+        - { t: AI Act, query: true }
+        - { t: AI regulation, query: true }
+        - { t: GDPR }
+        - { t: data breach, query: true }
+        - { t: data governance }
+        - { t: AI compliance }
+
+  # ---------- 4.5 เศรษฐกิจดิจิทัลไทย / SME / โครงการรัฐ ----------
+  - id: THAI_DIGITAL
+    name_th: ดิจิทัลไทยและ SME
+    weight: 9
+    terms:
+      th:
+        - { t: เศรษฐกิจดิจิทัล, query: true }
+        - { t: เปลี่ยนผ่านดิจิทัล SME, query: true }
+        - { t: ดิจิทัลทรานส์ฟอร์เมชัน, query: true }
+        - { t: NIA }
+        - { t: depa }
+        - { t: สำนักงานส่งเสริมเศรษฐกิจดิจิทัล }
+        - { t: BOI ส่งเสริมการลงทุน }
+        - { t: สนับสนุนสตาร์ทอัพ, query: true }
+        - { t: SME ไทย }
+      en:
+        - { t: Thailand digital economy, query: true }
+        - { t: SME digital transformation Thailand, query: true }
+        - { t: depa Thailand, query: true }
+        - { t: NIA Thailand startup, query: true }
+        - { t: Thailand startup ecosystem, query: true }
+
+  # ---------- 4.6 การระดมทุน / งบ IT / มหภาค ----------
+  - id: FUNDING_MACRO
+    name_th: การลงทุนและเศรษฐกิจ
+    weight: 6
+    terms:
+      th:
+        - { t: ระดมทุนสตาร์ทอัพ, query: true }
+        - { t: เงินลงทุน VC }
+        - { t: งบไอที }
+        - { t: การลงทุนเทคโนโลยี, query: true }
+        - { t: ควบรวมกิจการเทค }
+      en:
+        - { t: startup funding round, query: true }
+        - { t: venture capital SaaS, query: true }
+        - { t: IT spending forecast, query: true }
+        - { t: tech layoffs }
+        - { t: SaaS acquisition, query: true }
+        - { t: enterprise IT budget }
+
+brands:
+  # แพลตฟอร์ม/ผู้เล่นใหญ่ที่การเคลื่อนไหวมีผลต่อตลาด CRM/AI (หมวด PLATFORM)
+  priority: [Salesforce, HubSpot]
+  aliases:
+    Salesforce: [เซลส์ฟอร์ซ, เซลฟอร์ซ]
+    Microsoft: [ไมโครซอฟท์, ไมโครซอฟต์, "Dynamics 365"]
+    Google: [กูเกิล]
+    OpenAI: [โอเพนเอไอ, ChatGPT]
+    Anthropic: [Claude]
+    HubSpot: [ฮับสปอต]
+    SAP: []
+    Oracle: [ออราเคิล]
+    Zoho: [โซโห]
+    AWS: ["Amazon Web Services"]
+  all:
+    - Salesforce
+    - Microsoft
+    - Google
+    - OpenAI
+    - Anthropic
+    - HubSpot
+    - SAP
+    - Oracle
+    - Zoho
+    - AWS
+
+# คำที่บ่งชี้ว่าเป็น Press Release / Sponsored
+press_release_markers:
+  - "ข่าวประชาสัมพันธ์"
+  - "PR News"
+  - "press release"
+  - "newswire"
+  - "prnewswire"
+  - "businesswire"
+  - "แถลงข่าว"
+sponsored_markers:
+  - "advertorial"
+  - "sponsored"
+  - "paid partnership"
+  - "โฆษณา"
+  - "บทความโฆษณา"
+
+# คำที่ตัดทิ้งทันที (Noise)
+hard_exclude:
+  - "ดูดวง"
+  - "หวย"
+  - "เลขเด็ด"
+  - "ผลบอล"
+  - "horoscope"
+  - "lottery"

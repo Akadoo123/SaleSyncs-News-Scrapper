@@ -1,0 +1,119 @@
+# ============================================================
+# คู่แข่ง — ชื่อคู่แข่งหลายรายเป็นคำทั่วไป (Close, Monday, Wise)
+# จึงต้อง "บังคับ" ให้มีบริบทเทคโนโลยี/CRM ร่วมด้วยเสมอ (กัน False Positive)
+#
+# หมายเหตุ: คีย์ require_automotive_context คงชื่อไว้ตามโครง Air4
+# แต่ความหมายคือ "ต้องมีบริบทเทคโนโลยี/ธุรกิจซอฟต์แวร์" (ดู automotive_context ใน keywords.yaml)
+# ============================================================
+require_automotive_context: true
+
+competitors:
+  # ---- คู่แข่ง CRM/SaaS ระดับสากล ----
+  - id: salesforce
+    name: Salesforce
+    aliases: ["Salesforce", "เซลส์ฟอร์ซ", "Sales Cloud"]
+    ambiguous: false
+    country: GLOBAL
+  - id: hubspot
+    name: HubSpot
+    aliases: ["HubSpot", "ฮับสปอต"]
+    ambiguous: false
+    country: GLOBAL
+  - id: dynamics
+    name: Microsoft Dynamics 365
+    aliases: ["Dynamics 365", "Microsoft Dynamics", "MS Dynamics"]
+    ambiguous: false
+    country: GLOBAL
+  - id: zoho
+    name: Zoho
+    aliases: ["Zoho", "Zoho CRM", "โซโห"]
+    ambiguous: false
+    country: GLOBAL
+  - id: freshworks
+    name: Freshworks
+    aliases: ["Freshworks", "Freshsales"]
+    ambiguous: false
+    country: GLOBAL
+  - id: pipedrive
+    name: Pipedrive
+    aliases: ["Pipedrive"]
+    ambiguous: false
+    country: GLOBAL
+  - id: monday
+    name: monday.com
+    aliases: ["monday.com", "monday CRM", "มันเดย์"]
+    ambiguous: true
+    country: GLOBAL
+    notes: '"monday" เป็นชื่อวันทั่วไป — ต้องมีบริบท CRM/SaaS ประกอบเสมอ'
+  - id: close
+    name: Close
+    aliases: ["Close CRM", "Close.com"]
+    ambiguous: true
+    country: GLOBAL
+    notes: '"close" เป็นคำทั่วไปมาก — ใช้เฉพาะรูป "Close CRM"/"Close.com" และต้องมีบริบท CRM'
+
+  # ---- คู่แข่ง/ผู้เล่นในประเทศ ----
+  - id: buzzebees
+    name: BuzzeBees
+    aliases: ["BuzzeBees", "บัซซี่บีส์"]
+    ambiguous: false
+    country: TH
+    notes: เด่นด้าน Loyalty/CRM/Rewards
+  - id: jubilee
+    name: Jubilee
+    aliases: ["Jubilee CRM", "จูบิลี่"]
+    ambiguous: true
+    country: TH
+    notes: 'Sales + B2B Marketing CRM — "jubilee" เป็นคำทั่วไป ต้องมีบริบท CRM'
+  - id: venio
+    name: Venio
+    aliases: ["Venio", "เวนิโอ"]
+    ambiguous: false
+    country: TH
+    notes: คู่แข่งในประเทศด้าน Sales CRM
+  - id: wisible
+    name: Wisible
+    aliases: ["Wisible", "ไวซิเบิล"]
+    ambiguous: false
+    country: TH
+  - id: wise
+    name: Wise
+    aliases: ["Wise"]
+    ambiguous: true
+    country: GLOBAL
+    notes: ชนกับบริษัทโอนเงิน Wise — ต้องมีบริบท CRM/SaaS เข้มงวด
+
+# คำที่ถ้าพบร่วมกับชื่อคู่แข่ง = แทบแน่ใจว่าเป็น False Positive
+negative_context_terms:
+  - money transfer
+  - remittance
+  - โอนเงิน
+  - แลกเงิน
+  - exchange rate
+  - "monday morning"
+  - "next monday"
+  - "on monday"
+  - วันจันทร์
+  - close the door
+  - market close
+  - ปิดตลาด
+  - game
+  - เกม
+  - anime
+  - การ์ตูน
+
+# สัญญาณ (Signal) ของคู่แข่งที่ต้องจับ
+watch_signals:
+  - { id: funding_round,    th: ระดมทุนรอบใหม่,                    severity: high }
+  - { id: enterprise_deal,  th: ได้ลูกค้าองค์กรรายใหญ่,             severity: critical }
+  - { id: new_ai_feature,   th: เปิดตัวฟีเจอร์ AI ใหม่,             severity: high }
+  - { id: price_cut,        th: ลดราคา/แจกฟรี,                    severity: critical }
+  - { id: free_tier,        th: เปิด Free tier,                   severity: high }
+  - { id: b2b2c_move,       th: ขยับเข้าตลาด B2B2C/partner,        severity: critical }
+  - { id: local_expansion,  th: ขยายตลาดในไทย/SEA,                severity: high }
+  - { id: acquisition,      th: ถูกซื้อ/ควบรวมกิจการ,              severity: high }
+  - { id: outage_breach,    th: ระบบล่ม/ข้อมูลรั่ว,                 severity: medium }
+  - { id: pricing_change,   th: เปลี่ยนโครงสร้างราคา,              severity: medium }
+  - { id: cert_compliance,  th: ได้ใบรับรอง/มาตรฐาน compliance,     severity: medium }
+  - { id: partnership,      th: จับมือพันธมิตรเชิงกลยุทธ์,           severity: high }
+  - { id: model_change,     th: เปลี่ยน Business Model,           severity: high }

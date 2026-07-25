@@ -1,0 +1,24 @@
+# ประเทศเป้าหมาย — ตลาดหลัก (ไทย) + ตลาดขยาย SaaS และแหล่งสัญญาณเทคโนโลยีโลก
+# หมายเหตุ: คีย์ oem_markets/prospect_markets คงชื่อไว้ตามโครง Air4 (โค้ดอ้างชื่อนี้)
+home:
+  code: TH
+  name_th: ไทย
+  name_en: Thailand
+
+# ตลาดขยาย SaaS หลัก + แหล่งข่าวเทคโนโลยีที่ส่งผลต่อทิศทางตลาด
+oem_markets:
+  - { code: SG, name_th: สิงคโปร์,   name_en: Singapore,   lang: en }
+  - { code: VN, name_th: เวียดนาม,   name_en: Vietnam,     lang: vi }
+  - { code: PH, name_th: ฟิลิปปินส์,  name_en: Philippines, lang: en }
+  - { code: ID, name_th: อินโดนีเซีย, name_en: Indonesia,   lang: id }
+  - { code: MY, name_th: มาเลเซีย,   name_en: Malaysia,    lang: en }
+  - { code: US, name_th: สหรัฐฯ,     name_en: United States, lang: en }
+  - { code: IN, name_th: อินเดีย,    name_en: India,       lang: en }
+  - { code: GB, name_th: สหราชอาณาจักร, name_en: United Kingdom, lang: en }
+
+# ตลาดที่อาจขยายในอนาคต — AI ต้องระบุเหตุผลว่าทำไมน่าสนใจ
+prospect_markets:
+  - { code: KH, name_th: กัมพูชา,   name_en: Cambodia,   rationale_hint: ตลาดชายแดน SME กำลังเข้าสู่ดิจิทัล }
+  - { code: LA, name_th: ลาว,      name_en: Laos,       rationale_hint: ตลาดชายแดน ต้นทุนเข้าตลาดต่ำ }
+  - { code: AE, name_th: สหรัฐอาหรับเอมิเรตส์, name_en: United Arab Emirates, rationale_hint: ฮับเทคตะวันออกกลาง งบดิจิทัลสูง }
+  - { code: AU, name_th: ออสเตรเลีย, name_en: Australia,  rationale_hint: ตลาด SaaS โตเต็มที่ ใกล้ SEA }

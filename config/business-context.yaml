@@ -1,0 +1,119 @@
+# ============================================================
+# SaleSync Business Context — ใช้เป็น Context หลักของ AI ทุก Prompt
+# ============================================================
+company:
+  name_th: SaleSync (พัฒนาโดยทีมของ บริษัท แอร์โฟร์อินเตอร์เนชั่นแนล จำกัด)
+  name_en: SaleSync — B2B2C AI CRM / Revenue OS
+  tagline: "A B2B2C AI CRM — proven inside Air4, then scaled as vertical SaaS"
+  category: B2B2C AI Revenue OS (ไม่ใช่ CRM แบบบันทึกอดีต แต่ "แนะนำสิ่งที่ควรทำต่อไป")
+  differentiator: >-
+    CRMs record what happened. SaleSync recommends what to do next —
+    ใช้ AI พยากรณ์และสั่งการ ไม่ใช่แค่เก็บข้อมูล
+  origin: >-
+    ต่อยอดจากข้อมูลจริงของ Air4 (ธุรกิจล้างแอร์รถยนต์ B2B2C, ก่อตั้ง 1998, ~70 คน)
+    ที่เจอปัญหา "revenue leakage" — เครื่องติดตั้ง 100% แต่พาร์ทเนอร์ขายจริง ~74%,
+    รีออเดอร์สม่ำเสมอ <48%, เกินเป้า ~26%
+  problem_solved: >-
+    จับ "พาร์ทเนอร์เงียบ/หลับ" ก่อนรายได้หาย ด้วยการพยากรณ์และ Next Best Action
+  business_model: >-
+    Vertical SaaS แบบ subscription — Core 18,000–75,000 บาท/เดือน,
+    Enterprise white-label 120,000–300,000 บาท/เดือน (เป้า Year-3 ARR 15–50M)
+
+# ช่องทางรายได้ (Revenue engines) — 3 เฟสของการขยาย
+channels:
+  - id: INTERNAL
+    brand: Air4 Internal Pilot
+    detail: พิสูจน์ผล (proof-of-concept) กับทีมขายและพาร์ทเนอร์ของ Air4 เอง
+    note: Phase 1 — รายได้/หลักฐานตั้งต้น เป้าเพิ่มรายได้ Air4 ~5%
+  - id: SAAS
+    brand: SaleSync (Vertical SaaS)
+    detail: ขายแบบ subscription ให้ธุรกิจ B2B2C ภายนอกที่มีโมเดล partner-driven
+    note: Phase 3 — เครื่องยนต์การเติบโตหลักในระยะยาว
+  - id: WHITELABEL
+    brand: SaleSync Enterprise
+    detail: โซลูชัน white-label สำหรับองค์กรขนาดใหญ่ (120K–300K บาท/เดือน)
+
+# ผลิตภัณฑ์/เสาหลักของ SaleSync (6 โมดูลหลัก จัดกลุ่มเป็น 3 เสา)
+products:
+  - id: CRM_CORE
+    name_th: แพลตฟอร์ม Customer 360 / CRM
+    name_en: Customer 360 CRM platform
+    modules:
+      - Customer 360 — มุมมองรวมของพาร์ทเนอร์ ทีมหน้างาน และลูกค้าปลายทาง
+    strengths:
+      - สร้างจากข้อมูลจริงของ Air4 ไม่ใช่ข้อมูลสังเคราะห์
+      - ออกแบบเฉพาะโมเดล B2B2C ที่คู่แข่งในประเทศยังทำได้ไม่ดี
+  - id: AI_ENGINE
+    name_th: ชั้น AI พยากรณ์และสั่งการ
+    name_en: AI prediction & recommendation layer
+    modules:
+      - Partner Health Score — สัญญาณสด activation/sell-through/ความเสี่ยงรายบัญชี
+      - Dormant Alert — จับพาร์ทเนอร์ที่กำลังเงียบก่อนรายได้ตก
+      - Reorder Prediction — พยากรณ์รอบสั่งซื้อถัดไปราย SKU
+      - Next Best Action — บอกทีมขายว่าวันนี้ควรโทร/เสนออะไร/หาใคร
+    powertrain_exposure: พึ่งพาโมเดล AI/LLM และต้นทุน cloud — ราคาโมเดล/กฎเกณฑ์ AI มีผลตรง
+  - id: INCENTIVE
+    name_th: Frontline Incentive Tracking
+    name_en: Frontline incentive tracking
+    modules:
+      - ติดตามและให้รางวัลคนที่ปิดการขายจริงที่หน้างาน
+
+# กลุ่มลูกค้าเป้าหมาย (vertical ที่มีโมเดล partner-driven recurring revenue)
+target_b2b_segments:
+  - id: AUTO_CHEM
+    name: ผู้ผลิต/จำหน่ายเคมีภัณฑ์และอุปกรณ์บริการรถยนต์ (ต้นแบบจาก Air4)
+  - id: BEAUTY_CLINIC
+    name: ซัพพลายเออร์คลินิกความงาม/เวชสำอาง
+  - id: SPA_WELLNESS
+    name: ซัพพลายเออร์สินค้าสปา/เวลเนส
+  - id: HVAC_SCENT
+    name: บริการ Scent / HVAC / คุณภาพอากาศ
+  - id: SME_DISTRIBUTOR
+    name: SME ที่ขายผ่านตัวแทน/พาร์ทเนอร์และต้องการรายได้ recurring
+
+okrs:
+  O1:
+    statement: >-
+      พิสูจน์ผลใน Air4 — เพิ่มรายได้ Air4 ≥ 5% จากการเพิ่ม reorder และปลุกบัญชี dormant
+      (เป้ารายได้ 77.87 ล้านบาท/ปี, payback ~0.3 ปี)
+    lens: ข่าวใดที่กระทบความสามารถในการพิสูจน์ ROI ภายในองค์กรและการนำ AI ไปใช้จริง
+  O2:
+    statement: >-
+      เปิดตัว vertical SaaS และได้ลูกค้าภายนอก 2–3 รายภายใน 12 เดือน
+      เพิ่มสัดส่วนรายได้ SaaS (เป้า Year-3 ARR 15–50 ล้านบาท)
+    current_state: ยังอยู่ระหว่าง Build–Prove ยังไม่มีลูกค้า SaaS ภายนอก
+    lens: ข่าวใดที่ช่วย/ขัดขวางการขายเป็น SaaS ให้ธุรกิจภายนอก (อุปสงค์ SaaS, คู่แข่ง, กฎเกณฑ์, ทุน)
+
+analysis_priorities:
+  - อุปสงค์ CRM / Sales-tech ในกลุ่ม SME และ B2B2C
+  - การยอมรับ AI/Agentic AI ในงานขายและ CRM
+  - การเปลี่ยนผ่านดิจิทัลของ SME ไทย
+  - กฎเกณฑ์ข้อมูลและ AI (PDPA, AI Act) และต้นทุน compliance
+  - ความเคลื่อนไหวของคู่แข่ง (ในและต่างประเทศ)
+  - การเคลื่อนไหวของแพลตฟอร์มใหญ่ (Salesforce/Microsoft/Google/OpenAI)
+  - การระดมทุนและงบ IT ของตลาด
+  - โครงการรัฐ/แหล่งทุน (NIA, depa, BOI) สำหรับสตาร์ทอัพ/SME
+  - โอกาสขยายตลาดต่างประเทศ (SEA เป็นหลัก)
+
+# แผนกที่มอบหมายงานได้ (ต้องตรงกับ Department enum ใน src/types.ts)
+departments:
+  - Product & Engineering
+  - AI & Data Science
+  - Sales & GTM
+  - Marketing & Growth
+  - Customer Success
+  - Partnerships & BD
+  - Compliance & Security
+  - Finance
+  - Founder & Strategy
+
+classification_guidance:
+  # (ชื่อคีย์ ev_rule/tie_rule คงไว้ตามโครง Air4 — เนื้อหาปรับเป็นกฎของ SaleSync แล้ว)
+  ev_rule: >-
+    กฎ "ผลกระทบสองทาง" ของกฎเกณฑ์ข้อมูล/AI (PDPA, AI Act, data privacy):
+    ห้ามตัดสินเป็น Positive หรือ Negative โดยอัตโนมัติ
+    ด้านลบ = ต้นทุน compliance เพิ่ม และลูกค้าอาจกังวลการใช้ AI กับข้อมูลส่วนบุคคล
+    ด้านบวก = SaleSync ที่ PDPA-compliant + KPI/Incentive โปร่งใส กลายเป็นจุดขาย
+    และยกกำแพงกันคู่แข่งรายเล็กที่ทำ compliance ไม่ไหว
+    ต้องประเมินผลกระทบสุทธิ (Net impact) ก่อนเลือกประเภทหลัก
+  tie_rule: หากผลดีและผลเสียสมดุล หรือข้อมูลยังไม่พอ ให้จัดเป็น neutral
