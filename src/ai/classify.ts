@@ -72,20 +72,20 @@ export async function analyzeItems(
   for (let i = 0; i < ordered.length; i++) {
     const item = ordered[i];
 
-    // 1) cache hit — ไม่เสียค่า AI ซ้ำ
+    // 1) cache hit — ใช้ซ้ำเฉพาะผลที่วิเคราะห์ด้วย AI สำเร็จเท่านั้น
+    //    ผล fallback ไม่ถูกแคชและไม่ reuse เพื่อให้ลองใหม่ด้วย AI ได้เมื่อ AI กลับมาใช้ได้
+    //    (กันเคส: รอบก่อน AI ล่มจนแคช fallback แล้วรอบถัดมาไม่เรียก AI ซ้ำ)
     const cached = cache?.get(item.contentHash);
-    if (cached) {
-      analyzed.push({ ...cached, ...item, analyzedBy: cached.analyzedBy, ...extractAnalysis(cached) });
-      if (cached.analyzedBy === 'ai') aiCount++;
-      else fallbackCount++;
+    if (cached && cached.analyzedBy === 'ai') {
+      analyzed.push({ ...cached, ...item, ...extractAnalysis(cached) });
+      aiCount++;
       continue;
     }
 
     const overLimit = i >= env.maxAiItemsPerRun;
     if (!provider.enabled || budgetStopped || overLimit) {
-      const fb = toAnalyzedItem(item, fallbackAnalyze(item), 'fallback');
-      analyzed.push(fb);
-      cache?.set(item.contentHash, fb);
+      // ไม่แคชผล fallback — จะได้ลองใหม่ด้วย AI ในรอบถัดไป
+      analyzed.push(toAnalyzedItem(item, fallbackAnalyze(item), 'fallback'));
       fallbackCount++;
       continue;
     }
@@ -112,9 +112,8 @@ export async function analyzeItems(
       } else {
         errors.capture(`ai:classify:${item.id}`, err);
       }
-      const fb = toAnalyzedItem(item, fallbackAnalyze(item), 'fallback');
-      analyzed.push(fb);
-      cache?.set(item.contentHash, fb);
+      // ไม่แคชผล fallback — จะได้ลองใหม่ด้วย AI ในรอบถัดไป
+      analyzed.push(toAnalyzedItem(item, fallbackAnalyze(item), 'fallback'));
       fallbackCount++;
     }
   }
