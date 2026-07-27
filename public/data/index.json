@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-07-26T04:29:47.108Z",
+  "updatedAt": "2026-07-27T04:45:59.179Z",
   "timezone": "Asia/Bangkok",
   "days": [
+    {
+      "date": "2026-07-27",
+      "generatedAt": "2026-07-27T04:45:59.165Z",
+      "status": "degraded",
+      "total": 36,
+      "positive": 11,
+      "neutral": 16,
+      "negative": 9,
+      "netImpactScore": 8,
+      "overallSentiment": "positive",
+      "competitorAlerts": 12
+    },
     {
       "date": "2026-07-26",
       "generatedAt": "2026-07-26T04:29:47.094Z",
