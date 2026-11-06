@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-05T07:37:48.028Z",
+  "updatedAt": "2026-11-06T07:33:09.132Z",
   "timezone": "Asia/Bangkok",
   "days": [
+    {
+      "date": "2026-11-06",
+      "generatedAt": "2026-11-06T07:33:09.110Z",
+      "status": "degraded",
+      "total": 83,
+      "positive": 38,
+      "neutral": 40,
+      "negative": 5,
+      "netImpactScore": 55.02,
+      "overallSentiment": "positive",
+      "competitorAlerts": 5
+    },
     {
       "date": "2026-11-05",
       "generatedAt": "2026-11-05T07:37:48.015Z",
@@ -361,18 +373,6 @@
       "netImpactScore": 2.8,
       "overallSentiment": "positive",
       "competitorAlerts": 7
-    },
-    {
-      "date": "2026-10-06",
-      "generatedAt": "2026-10-06T07:16:47.231Z",
-      "status": "degraded",
-      "total": 54,
-      "positive": 13,
-      "neutral": 30,
-      "negative": 11,
-      "netImpactScore": 2.9,
-      "overallSentiment": "positive",
-      "competitorAlerts": 11
     }
   ]
 }
